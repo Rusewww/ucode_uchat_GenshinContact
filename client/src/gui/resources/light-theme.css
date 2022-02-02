@@ -54,7 +54,7 @@ box stack, entry, .dialog_notebook header {
     font-weight: 400;
 }
 .dialog_auth entry, .dialog_addroom entry {
-	background-color: #F2F4FF;
+	background-color: #00FFCC;
 	border-radius: 5px;
     padding: 1px 10px;
 }
@@ -83,7 +83,7 @@ button {
     background-color: rgba(87,113,229,.7);
 }
 .box-functional-buttons button {
-    background-color: #F2F4FF;
+    background-color: #00FFCC;
     color: #8895A3;
     padding: 8px 0;
     font-size: 14px;
@@ -173,7 +173,7 @@ dialog headerbar {
 /* Search entry styles */
 
 .wnd_main .search, .wnd-room-info .search {
-	background-color: #F2F4FF;
+	background-color: #00FFCC;
 	border-radius: 5px;
     padding: 2px 8px 1px 8px;
     font-weight: 300;
@@ -281,7 +281,7 @@ dialog headerbar {
     background-color: rgba(87,113,229,.8);
 }
 .wnd_main .hovering {
-    background-color: #F2F4FF;
+    background-color: #00FFCC;
 	border: none;
 }
 .wnd_main .dragging slider {
@@ -303,7 +303,7 @@ dialog headerbar {
 	padding: 0 25px;
 }
 .box_titlebar button {
-    background-color: #F2F4FF;
+    background-color: #00FFCC;
     padding: 3px 8px;
     margin-top: 7px;
     margin-bottom: 7px;
@@ -374,7 +374,7 @@ dialog headerbar {
 	color: #737A82; 
 }
 .stack_messages list .box_msg_info > label, .box_file_info .file-button {
-    background-color: #F2F4FF;
+    background-color: #00FFCC;
     border-radius: 0 8px 8px 8px;
 }
 .stack_messages list .box_own_msg_info > label, .box_own_file_info .file-button {
@@ -506,7 +506,7 @@ dialog headerbar {
 }
 .box-room-settings entry {
 	border: 1px solid #E8ECF8;
-	background-color: #F2F4FF;
+	background-color: #00FFCC;
 	border-radius: 5px;
 	padding: 0 8px;
     font-weight: 300;
@@ -515,7 +515,7 @@ dialog headerbar {
 }
 .box-room-settings textview text, .box-room-info textview text,
 #dialog_profile_prefs textview text, .dialog_user_info textview text {
-    background-color: #F2F4FF;
+    background-color: #00FFCC;
     box-shadow: none;
     border: 1px solid #E8ECF8;
     border-radius: 5px;
@@ -543,7 +543,7 @@ dialog headerbar {
 }
 .box-room-settings > box:first-child box:last-child scrolledwindow {
 	border-radius: 5px;
-	background-color: #F2F4FF;
+	background-color: #00FFCC;
 	border: 1px solid #E8ECF8;
 }
 
@@ -582,7 +582,7 @@ dialog headerbar {
 }
 .box-room-info box:last-child scrolledwindow {
 	border-radius: 5px;
-	background-color: #F2F4FF;
+	background-color: #00FFCC;
 	border: 1px solid #E8ECF8;
 }
 .box-room-info > label {
