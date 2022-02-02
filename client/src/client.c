@@ -11,7 +11,7 @@ static void change_working_dir(void) {
     if (chdir(MX_CLIENT)) {
         mx_logger(MX_LOG_FILE, G_LOG_LEVEL_ERROR,
                   "No working directory mx_client");
-    }MX_ERRMSG_INCCRDATA
+    }MX_ERRMSG_INCCRDATA;
     if (g_mkdir_with_parents(MX_FILES_DIR, 0755)) {
         mx_logger(MX_LOG_FILE, G_LOG_LEVEL_ERROR,
                   "No files directory mx_files_dir");
