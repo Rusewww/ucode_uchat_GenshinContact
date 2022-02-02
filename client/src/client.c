@@ -7,7 +7,7 @@
  * and create files directory for downloaded files
  */
 static void change_working_dir(void) {
-    /*#ifdef MX_CLIENT
+    //#ifdef MX_CLIENT
     if (chdir(MX_CLIENT)) {
         mx_logger(MX_LOG_FILE, G_LOG_LEVEL_ERROR,
                   "No working directory mx_client");
@@ -16,8 +16,8 @@ static void change_working_dir(void) {
         mx_logger(MX_LOG_FILE, G_LOG_LEVEL_ERROR,
                   "No files directory mx_files_dir");
     }
-    #else*/
-    mx_logger(MX_LOG_FILE, LOGERR, "No working directory");
+    //#else
+   // mx_logger(MX_LOG_FILE, LOGERR, "No working directory");
     //#endif
 }
 
