@@ -3,7 +3,7 @@
 * {
     font-family: "Gill Sans", sans-serif;
     transition: all .07s ease-out;
-    outline-color: #CFD6EC;
+    outline-color: #66FFCC;
     outline-style: double;
 }
 button {
@@ -134,7 +134,7 @@ headerbar {
     outline: none;
 }
 .dialog_notebook tab {
-    box-shadow: 0 -3px #CFD6EC inset;
+    box-shadow: 0 -3px #66FFCC inset;
 }
 .dialog_notebook tab:hover {
     box-shadow: 0 -3px #B5C0E0 inset;
@@ -254,7 +254,7 @@ dialog headerbar {
     background-color: #F9FAFF;
 }
 .boxroom_header-in {
-    border-bottom: 1px solid #CFD6EC;
+    border-bottom: 1px solid #66FFCC;
     background-color: transparent;
     padding: 0 25px;
     font-size: 17px;
@@ -262,7 +262,7 @@ dialog headerbar {
 .boxroom_header-in button {
     background-image: none;
     background-color: transparent;
-    border: 1px solid #CFD6EC;
+    border: 1px solid #66FFCC;
     padding: 4px 7px;
 }
 .boxroom_header-in label {
@@ -321,7 +321,7 @@ dialog headerbar {
 .box_msg_send {
 	margin: 0 25px 25px 25px;
     background-color: transparent;
-    border: 1px solid #CFD6EC;
+    border: 1px solid #66FFCC;
 	padding: 15px 33px 15px 25px;
 	border-radius: 8px;
 }
@@ -456,7 +456,7 @@ dialog headerbar {
 }
 .box_msg_ctrl {
     background-color: #fff;
-    border-bottom: 1px solid #CFD6EC;
+    border-bottom: 1px solid #66FFCC;
     padding: 7px 25px;
 }
 .box_msg_ctrl button {
@@ -694,7 +694,7 @@ overshoot.top {
 }
 .box_stickers_header {
 	padding: 11px 25px 11px 25px;
-	border-bottom: 1px solid #CFD6EC;
+	border-bottom: 1px solid #66FFCC;
 	background-color: transparent;
 }
 .box_stickers_header label {
@@ -707,7 +707,7 @@ overshoot.top {
     background-color: #5771E5;
 }
 .box_stickers_area {
-    border-left: 1px solid #CFD6EC;
+    border-left: 1px solid #66FFCC;
 }
 .box_stickers_area grid {
     padding: 10px;
