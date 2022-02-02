@@ -216,8 +216,7 @@ struct s_chat {
     GtkBuilder *builder;
     gboolean valid;
     void (*error_handler[ER_COUNT_ERRS])(GtkBuilder *builder);
-    gboolean (*request_handler[RQ_COUNT_REQUEST])(t_dtp *dtp,
-                                                  struct s_chat *chat);
+    gboolean (*request_handler[RQ_COUNT_REQUEST])(t_dtp *dtp, struct s_chat *chat);
     gboolean msg_placeholder;
     gboolean shift_hold;
     GtkCssProvider *css_prov;
