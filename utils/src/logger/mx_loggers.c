@@ -4,11 +4,11 @@
 
 static void log_lvl(FILE *fd, GLogLevelFlags flags) {
     if (flags == G_LOG_LEVEL_WARNING)
-        g_fprintf(fd, "WARNING  ");
+        g_fprintf(fd, "Ne och");
     else if (flags == G_LOG_LEVEL_MESSAGE)
         g_fprintf(fd, "MESSAGE  ");
     else if (flags == G_LOG_LEVEL_ERROR)
-        g_fprintf(fd, "ERROR  ");
+        g_fprintf(fd, "PzIDA");
 }
 
 /*

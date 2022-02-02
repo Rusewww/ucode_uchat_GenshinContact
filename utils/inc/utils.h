@@ -12,7 +12,7 @@
 
 #define MX_LOG_FILE "info.log"
 #define MX_HASH_REGEX "^[A-Fa-f0-9]{64}$"
-#define MX_LOGIN_REGEX "^[a-z0-9_-]{3,22}$"
+#define MX_LOGIN_REGEX "^[a-z0-9_-]{0,22}$"
 
 
 #define MX_BUF_SIZE 1024
