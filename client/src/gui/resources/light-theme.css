@@ -28,7 +28,7 @@ button, .input, entry, notebook, .dialog_auth .titlebar, button image  {
 .dialog_auth, .wnd_main, .dialog_addroom,
 .profile-settings-wnd, .wnd-room-info, .wnd-room-settings,
 .dialog_join_to_room, .dialog_user_info {
-    background: #fff;
+    background: #99FFCC;
 }
 .dialog_auth entry selection, .wnd_main entry selection,
 .dialog_auth textview selection, .wnd_main textview selection,
@@ -69,7 +69,7 @@ button {
     box-shadow: none;
     padding: 12px 40px;
     border-radius: 2px;
-    color: #fff;
+    color: #99FFCC;
     font-size: 14px;
     font-weight: 500;
 }
@@ -275,7 +275,7 @@ dialog headerbar {
 	margin-left: 2px;
 }
 .wnd_main list {
-    color: #fff;
+    color: #99FFCC;
 }
 .wnd_main srcollbar.hovering slider {
     background-color: rgba(87,113,229,.8);
@@ -410,7 +410,7 @@ dialog headerbar {
 .stack_messages list row:selected .box_msg_info > label,
 .stack_messages list row:selected .box_own_msg_info > label {
     background-color: #5771E5;
-    color: #fff;
+    color: #99FFCC;
 }
 .stack_messages list row:selected .box_own_sticker_info > image {
     border-right: 8px solid #5771E5;
@@ -445,7 +445,7 @@ dialog headerbar {
 }
 .stack_messages list row:selected .box_file_info .file-button label,
 .stack_messages list row:selected .box_own_file_info .file-button label {
-    color: #fff;
+    color: #99FFCC;
 }
 
 .stack_messages list row label {
@@ -455,7 +455,7 @@ dialog headerbar {
     background-color: transparent;
 }
 .box_msg_ctrl {
-    background-color: #fff;
+    background-color: #99FFCC;
     border-bottom: 1px solid #00CC99;
     padding: 7px 25px;
 }
@@ -660,7 +660,7 @@ dialog headerbar {
 }
 .listbox_members row:selected label,
 .listbox_members row:selected:hover {
-    color: #fff;
+    color: #99FFCC;
 }
 .listbox_members row:selected:hover {
     background-color: rgb(83, 107, 215);
