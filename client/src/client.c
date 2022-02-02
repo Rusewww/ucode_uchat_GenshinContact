@@ -13,14 +13,14 @@ int main(int argc, char **argv) {
     GSocketClient *client = g_socket_client_new();
     t_chat *chat = NULL;
 
-    /*if (chdir(MX_CLIENT)) {
+    if (chdir(MX_CLIENT)) {
         mx_logger(MX_LOG_FILE, G_LOG_LEVEL_ERROR,
                   "No working directory mx_client");
     }MX_ERRMSG_INCCRDATA;
     if (g_mkdir_with_parents(MX_FILES_DIR, 0755)) {
         mx_logger(MX_LOG_FILE, G_LOG_LEVEL_ERROR,
                   "No files directory mx_files_dir");
-    }*/
+    }
 
     if (!is_valid(argc))
         return -1;
