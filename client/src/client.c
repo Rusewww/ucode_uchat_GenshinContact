@@ -29,7 +29,8 @@ static gboolean is_valid(gint argc) {
     return TRUE;
 }
 
-#ifdef MX_UNIT_TEST
+/*#ifdef MX_UNIT_TEST
+
 int main(int argc, char **argv) {
     GSocketConnection *connection = NULL;
     GSocketClient *client = g_socket_client_new();
@@ -50,7 +51,7 @@ int main(int argc, char **argv) {
     return 0;
 }
 
-#else
+#else*/
 
 int main(int argc, char **argv) {
     GSocketConnection *connection = NULL;
