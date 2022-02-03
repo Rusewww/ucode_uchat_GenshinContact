@@ -377,42 +377,49 @@ dialog headerbar {
     opacity: .7;
 }
 
-/* Messages area styles */
+/* Ctroka napisaniya soobsheniya */
 
 .box_msg_send {
 	margin: 0 25px 25px 25px;
     background-color: transparent;
-    background-image: url("anemo.jpg");
     border: 1px solid #00CC99;
 	padding: 15px 33px 15px 25px;
 	border-radius: 8px;
 }
+
 .button_send_message, .btn_confirm_changes {
 	background-color: #E8ECF8;
 	border-radius: 100px;
 	padding: 13px;
 }
+
 .box_msg_send textview text,  .box_msg_send textview {
     background-color: transparent;
     color: #737A82;
     font-weight: 300;
     font-size: 15px;
 }
+
 .stack_messages > label {
     color: #8895A3;
 }
+
 .main_msg_box {
 	padding: 0 180px 0 0;
 }
+
 .main_own_msg_box {
 	padding: 0 0 0 180px;
 }
+
 .stack_messages list {
 	margin: 7px 38px 14px 38px;
 }
+
 .stack_messages list row {
     padding: 0;
 }
+
 .stack_messages list row:selected {
 	background-color: transparent;
 }
@@ -437,6 +444,7 @@ dialog headerbar {
 }
 .stack_messages list .box_msg_info > label, .box_file_info .file-button {
     background-color: #F2F4FF;
+    background-image: url("anemo.jpg");
     border-radius: 0 8px 8px 8px;
 }
 .stack_messages list .box_own_msg_info > label, .box_own_file_info .file-button {
