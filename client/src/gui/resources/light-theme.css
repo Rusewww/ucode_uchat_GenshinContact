@@ -68,7 +68,6 @@ button {
 }
 .dialog-action-area button {
     background-color: #009966;
-    background-image: url("anemo.jpg");
     box-shadow: none;
     padding: 12px 40px;
     border-radius: 2px;
@@ -84,6 +83,7 @@ button {
 }
 .dialog-action-area button:hover {
     background-color: rgba(0,153,153,.7);
+    background-image: url("anemo.jpg");
 }
 .box-functional-buttons button {
     background-color: #DDFFDD;
