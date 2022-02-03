@@ -642,12 +642,14 @@
         <property name="name">GenshinContact</property>
         <property name="visible">True</property>
         <property name="can-focus">False</property>
-        <property name="orientation">vertical</property>
         <child>
           <object class="GtkBox" id="box_header_main">
             <property name="name">GenshinContact</property>
+            <property name="width-request">-1</property>
+            <property name="height-request">50</property>
             <property name="visible">True</property>
             <property name="can-focus">False</property>
+            <property name="orientation">vertical</property>
             <child>
               <object class="GtkButton" id="btn_show_roomlist">
                 <property name="width-request">30</property>
@@ -1084,7 +1086,7 @@
                                 <property name="ellipsize">end</property>
                                 <property name="xalign">0.10000000149011612</property>
                                 <attributes>
-                                  <attribute name="font-desc" value="Noto Mono 14"/>
+                                  <attribute name="font-desc" value="Noto Mono Bold 20"/>
                                 </attributes>
                               </object>
                               <packing>
@@ -1509,6 +1511,9 @@
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
                         <property name="label" translatable="yes">Stickers</property>
+                        <attributes>
+                          <attribute name="font-desc" value="Noto Mono 14"/>
+                        </attributes>
                       </object>
                       <packing>
                         <property name="expand">True</property>
@@ -2650,10 +2655,10 @@
                     <property name="height-request">30</property>
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="label" translatable="yes">Name</property>
+                    <property name="label" translatable="yes">Name:</property>
                     <property name="xalign">0</property>
                     <attributes>
-                      <attribute name="font-desc" value="Noto Color Emoji 12"/>
+                      <attribute name="font-desc" value="Noto Mono Bold 14"/>
                     </attributes>
                   </object>
                   <packing>
@@ -2692,10 +2697,10 @@
                     <property name="height-request">30</property>
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="label" translatable="yes">Description</property>
+                    <property name="label" translatable="yes">Description:</property>
                     <property name="xalign">0</property>
                     <attributes>
-                      <attribute name="font-desc" value="Noto Mono 12"/>
+                      <attribute name="font-desc" value="Noto Mono Bold 14"/>
                     </attributes>
                   </object>
                   <packing>
@@ -2745,10 +2750,10 @@
                     <property name="height-request">20</property>
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="label" translatable="yes">Members</property>
+                    <property name="label" translatable="yes">Members:</property>
                     <property name="xalign">0</property>
                     <attributes>
-                      <attribute name="font-desc" value="Noto Mono 12"/>
+                      <attribute name="font-desc" value="Noto Mono Bold 14"/>
                     </attributes>
                   </object>
                   <packing>
@@ -2804,11 +2809,10 @@
           <object class="GtkBox">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="orientation">vertical</property>
             <child>
               <object class="GtkButton" id="btn_roomsett_clear">
                 <property name="label" translatable="yes">Clear history</property>
-                <property name="height-request">30</property>
+                <property name="width-request">150</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="focus-on-click">False</property>
@@ -2826,7 +2830,7 @@
             <child>
               <object class="GtkButton" id="btn_roomsett_delete">
                 <property name="label" translatable="yes">Delete room</property>
-                <property name="height-request">30</property>
+                <property name="width-request">150</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="focus-on-click">False</property>
@@ -2926,9 +2930,6 @@
             <property name="fill">False</property>
             <property name="position">1</property>
           </packing>
-        </child>
-        <child>
-          <placeholder/>
         </child>
       </object>
     </child>
@@ -3151,62 +3152,20 @@
             <property name="can-focus">False</property>
             <child>
               <object class="GtkLabel" id="label_prefs_roomname">
-                <property name="width-request">350</property>
+                <property name="width-request">300</property>
                 <property name="height-request">30</property>
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="label" translatable="yes">Room Name</property>
                 <property name="xalign">0</property>
                 <attributes>
-                  <attribute name="font-desc" value="Noto Mono 12"/>
+                  <attribute name="font-desc" value="Noto Mono Bold 14"/>
                 </attributes>
               </object>
               <packing>
                 <property name="expand">False</property>
                 <property name="fill">True</property>
                 <property name="position">0</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkBox">
-                <property name="visible">True</property>
-                <property name="can-focus">False</property>
-                <property name="tooltip-text" translatable="yes">The total amount of energy spent on messages in the room</property>
-                <child>
-                  <object class="GtkImage">
-                    <property name="width-request">30</property>
-                    <property name="height-request">30</property>
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="icon-name">energy</property>
-                  </object>
-                  <packing>
-                    <property name="expand">False</property>
-                    <property name="fill">True</property>
-                    <property name="position">0</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkLabel" id="label_room_energy">
-                    <property name="height-request">30</property>
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="label" translatable="yes">trash</property>
-                    <attributes>
-                      <attribute name="font-desc" value="Noto Mono 12"/>
-                    </attributes>
-                  </object>
-                  <packing>
-                    <property name="expand">False</property>
-                    <property name="fill">True</property>
-                    <property name="position">1</property>
-                  </packing>
-                </child>
-              </object>
-              <packing>
-                <property name="expand">True</property>
-                <property name="fill">True</property>
-                <property name="position">1</property>
               </packing>
             </child>
           </object>
@@ -3229,7 +3188,7 @@
                 <property name="label" translatable="yes">Customer</property>
                 <property name="xalign">0</property>
                 <attributes>
-                  <attribute name="font-desc" value="Noto Mono 12"/>
+                  <attribute name="font-desc" value="Noto Mono Bold 14"/>
                 </attributes>
               </object>
               <packing>
@@ -3247,6 +3206,7 @@
                 <property name="xalign">0</property>
                 <attributes>
                   <attribute name="font-desc" value="Noto Mono 12"/>
+                  <attribute name="style" value="italic"/>
                 </attributes>
               </object>
               <packing>
@@ -3275,7 +3235,7 @@
                 <property name="label" translatable="yes">Description</property>
                 <property name="xalign">0</property>
                 <attributes>
-                  <attribute name="font-desc" value="Noto Mono 12"/>
+                  <attribute name="font-desc" value="Noto Mono Bold 14"/>
                 </attributes>
               </object>
               <packing>
@@ -3330,7 +3290,7 @@
                 <property name="label" translatable="yes">Members</property>
                 <property name="xalign">0</property>
                 <attributes>
-                  <attribute name="font-desc" value="Noto Mono 12"/>
+                  <attribute name="font-desc" value="Noto Mono Bold 14"/>
                 </attributes>
               </object>
               <packing>
