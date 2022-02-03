@@ -200,7 +200,6 @@ dialog headerbar {
 
 .wnd_main .search, .wnd-room-info .search {
 	background-color: #DDFFDD;
-    background-image: url("anemo.jpg");
 	border-radius: 5px;
     padding: 2px 8px 1px 8px;
     font-weight: 300;
@@ -219,12 +218,15 @@ dialog headerbar {
 .rooms-list row {
 	padding: 0;
 }
+
 .rooms-list row, .rooms-list row label {
     color: #8895A3;
     outline: none;
 }
+
 .rooms-list label {
 	background-color: transparent;
+    background-image: url("anemo.jpg");
     padding: 25px 20px;
     border: 2px solid #E8ECF8;
     border-radius: 8px;
