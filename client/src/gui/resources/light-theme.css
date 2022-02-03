@@ -609,7 +609,7 @@ dialog headerbar {
 }
 .box-room-settings > box:first-child label {
 	font-size: 14px;
-	color: #8895A3;
+	color: #202020;
 	margin-top: 10px;
     margin-bottom: 7px;
     font-weight: 500;
@@ -619,19 +619,19 @@ dialog headerbar {
 }
 .box-room-settings > box:first-child box:last-child scrolledwindow {
 	border-radius: 5px;
-	background-color: #F2F4FF;
-	border: 1px solid #E8ECF8;
+	background-color: #e7f5dc;
+	border: 1px solid #1c4a47;
 }
 
 /* Dialog window room info styles */
 
 .box-room-info {
-    color: #737A82;
+    color: #202020;
     margin: 22px 45px 45px 45px;
 }
 .box-room-info box label:first-child {
 	font-size: 14px;
-	color: #8895A3;
+	color: #202020;
 	font-weight: 500;
 }
 .box-room-info > box:nth-child(2) label:last-child {
@@ -658,8 +658,8 @@ dialog headerbar {
 }
 .box-room-info box:last-child scrolledwindow {
 	border-radius: 5px;
-	background-color: #F2F4FF;
-	border: 1px solid #E8ECF8;
+	background-color: #e7f5dc;
+	border: 1px solid  #1c4a47;
 }
 .box-room-info > label {
 	font-size: 17px;
@@ -736,10 +736,10 @@ dialog headerbar {
 }
 .listbox_members row:selected label,
 .listbox_members row:selected:hover {
-    color: #ffffff;
+    color: #e7f5dc;
 }
 .listbox_members row:selected:hover {
-    background-color: rgb(83, 107, 215);
+    background-color: rgb(28, 74, 71);
 }
 .listbox_members row button {
     padding: 0;
@@ -778,7 +778,7 @@ overshoot.top {
 }
 
 .box_stickers_header label {
-    color: #323B59;
+    color: #1c4a47;
     font-size: 14px;
 }
 
