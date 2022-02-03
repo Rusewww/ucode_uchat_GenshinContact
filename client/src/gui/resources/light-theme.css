@@ -25,14 +25,11 @@ list row {
 button, .input, entry, notebook, .dialog_auth .titlebar, button image  {
     border: none;
 }
-tr, .dialog_auth, .wnd_main, .dialog_addroom,
+.dialog_auth, .wnd_main, .dialog_addroom,
 .profile-settings-wnd, .wnd-room-info, .wnd-room-settings,
 .dialog_join_to_room, .dialog_user_info {
     background: #99FFCC;
     background-image: url("anemo.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
 }
 .dialog_auth entry selection, .wnd_main entry selection,
 .dialog_auth textview selection, .wnd_main textview selection,
