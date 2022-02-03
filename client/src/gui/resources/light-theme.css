@@ -224,22 +224,26 @@ dialog headerbar {
     outline: none;
 }
 
+/*Komnaty v spiske*/
+
 .rooms-list label {
 	background-color: transparent;
-    background-image: url("anemo.jpg");
     padding: 25px 20px;
     border: 2px solid #E8ECF8;
     border-radius: 8px;
     margin: 5px 25px;
     font-size: 15px;
 }
+
 .rooms-list row:hover {
     background-color: transparent;
 }
+
 .rooms-list row:hover label {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .rooms-list row:selected label {
     border-color: transparent;
     border-left: 2px solid rgb(0,102,0);
@@ -247,10 +251,12 @@ dialog headerbar {
     margin-left: 18px;
     margin-right: 18px;
 }
+
 .rooms-list row:selected:hover label {
     margin-left: 14px;
     margin-right: 14px;
 }
+
 /* Class for room with new messages */
 .rooms-list row .has-messages {
     border-right: 2px solid #28E1B2;
@@ -259,9 +265,11 @@ dialog headerbar {
 	animation-timing-function: ease;
 	animation-iteration-count: infinity;
 }
+
 .rooms-list row:hover .has-messages {
 	animation: none;
 }
+
 @keyframes pulse {
     0% {margin-left: 25px; margin-right: 25px;}
     75% {margin-left: 21px; margin-right: 21px;}
@@ -272,6 +280,7 @@ dialog headerbar {
     padding: 15px;
     border-radius: 100px;
     background-color: #E8ECF8;
+    background-image: url("anemo.jpg");
     margin: 20px 0 25px 0;
 }
 .add-room-button:hover {
