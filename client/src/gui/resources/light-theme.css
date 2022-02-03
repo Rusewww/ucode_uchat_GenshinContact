@@ -578,8 +578,8 @@ dialog headerbar {
 /*imya komnaty*/
 
 .box-room-settings entry {
-	border: 1px solid #E8ECF8;
-	background-color: #F2F4FF;
+	border: 1px solid #1c4a47;
+	background-color: #94d6ba;
 	border-radius: 5px;
 	padding: 0 8px;
     font-weight: 300;
