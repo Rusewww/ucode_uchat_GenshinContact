@@ -19,8 +19,8 @@ list row {
 .dialog_auth textview, .wnd_main textview, .box-room-settings entry,
 .box-room-info textview, #dialog_profile_prefs textview,
 .dialog_addroom entry, .wnd-room-info entry, .dialog_user_info textview {
-    caret-color: #737A82;
-    color: #737A82;
+    caret-color: #1b2e28;
+    color: #1b2e28;
 }
 button, .input, entry, notebook, .dialog_auth .titlebar, button image  {
     border: none;
@@ -88,8 +88,8 @@ button {
 }
 
 .box-functional-buttons button {
-    background-color: #DDFFDD;
-    color: #8895A3;
+    background-color: #94d6ba;
+    color: #94d6ba;
     padding: 8px 0;
     font-size: 14px;
     font-weight: 500;
@@ -145,7 +145,7 @@ headerbar {
 }
 
 .dialog_notebook tab{
-    color: #8895A3;
+    color: #94d6ba;
     padding-top: 7px;
     padding-bottom: 8px;
     outline: none;
@@ -156,7 +156,7 @@ headerbar {
 }
 
 .dialog_notebook tab:hover {
-    box-shadow: 0 -3px #B5C0E0 inset;
+    box-shadow: 0 -3px #94d6ba inset;
 }
 
 .dialog_notebook tab:checked {
@@ -221,7 +221,7 @@ dialog headerbar {
 }
 
 .rooms-list row, .rooms-list row label {
-    color: #8895A3;
+    color: #94d6ba;
     outline: none;
 }
 
@@ -283,12 +283,12 @@ dialog headerbar {
 	background: none;
     padding: 15px;
     border-radius: 100px;
-    background-color: #E8ECF8;
+    background-color: #64ac8f;
     margin: 20px 0 25px 0;
 }
 
 .add-room-button:hover {
-    background-color: rgb(215, 220, 233);
+    background-color: #94d6ba;
 }
 
 .wnd_main scrolledwindow overshoot, scrolledwindow undershoot {
