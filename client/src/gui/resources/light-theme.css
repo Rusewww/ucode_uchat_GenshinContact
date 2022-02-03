@@ -275,23 +275,30 @@ dialog headerbar {
     75% {margin-left: 21px; margin-right: 21px;}
     100% {margin-left: 25px; margin-right: 25px;}
 }
+
+/*Knopka dobavit komnatu*/
+
 .add-room-button {
 	background: none;
     padding: 15px;
     border-radius: 100px;
     background-color: #E8ECF8;
-    background-image: url("anemo.jpg");
     margin: 20px 0 25px 0;
 }
+
 .add-room-button:hover {
     background-color: rgb(215, 220, 233);
 }
+
 .wnd_main scrolledwindow overshoot, scrolledwindow undershoot {
 	box-shadow: none;
 }
+
 .box-rooms {
     background-color: #F9FAFF;
+    background-image: url("anemo.jpg");
 }
+
 .boxroom_header-in {
     border-bottom: 1px solid #00CC99;
     background-color: transparent;
