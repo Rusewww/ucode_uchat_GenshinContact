@@ -2466,7 +2466,7 @@
                     <property name="label" translatable="yes">Login</property>
                     <property name="xalign">0</property>
                     <attributes>
-                      <attribute name="font-desc" value="Noto Mono 12"/>
+                      <attribute name="font-desc" value="Noto Mono Bold 14"/>
                     </attributes>
                   </object>
                   <packing>
@@ -2512,7 +2512,7 @@
                     <property name="label" translatable="yes">Status</property>
                     <property name="xalign">0</property>
                     <attributes>
-                      <attribute name="font-desc" value="Noto Mono 12"/>
+                      <attribute name="font-desc" value="Noto Mono Bold 14"/>
                     </attributes>
                   </object>
                   <packing>
@@ -2820,15 +2820,17 @@
             <property name="can-focus">False</property>
             <child>
               <object class="GtkButtonBox">
+                <property name="width-request">320</property>
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
+                <property name="orientation">vertical</property>
                 <property name="spacing">5</property>
                 <property name="homogeneous">True</property>
                 <property name="layout-style">start</property>
                 <child>
                   <object class="GtkButton" id="btn_roomsett_clear">
                     <property name="label" translatable="yes">Clear history</property>
-                    <property name="width-request">150</property>
+                    <property name="width-request">310</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="focus-on-click">False</property>
@@ -2837,18 +2839,19 @@
                   <packing>
                     <property name="expand">False</property>
                     <property name="fill">True</property>
-                    <property name="padding">5</property>
-                    <property name="position">0</property>
+                    <property name="padding">10</property>
+                    <property name="position">-1</property>
                   </packing>
                 </child>
                 <child>
                   <object class="GtkButton" id="btn_roomsett_delete">
                     <property name="label" translatable="yes">Delete room</property>
-                    <property name="width-request">150</property>
+                    <property name="width-request">310</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="focus-on-click">False</property>
                     <property name="receives-default">True</property>
+                    <property name="image-position">right</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
