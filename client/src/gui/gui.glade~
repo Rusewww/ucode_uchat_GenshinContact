@@ -364,7 +364,7 @@
   <object class="GtkImage" id="image16">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
-    <property name="pixel-size">20</property>
+    <property name="pixel-size">40</property>
     <property name="icon-name">stickers</property>
   </object>
   <object class="GtkImage" id="image17">
@@ -382,6 +382,8 @@
     <property name="icon-name">go-down</property>
   </object>
   <object class="GtkImage" id="image19">
+    <property name="width-request">40</property>
+    <property name="height-request">40</property>
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">40</property>
@@ -405,8 +407,12 @@
     <property name="icon-name">send-message</property>
   </object>
   <object class="GtkImage" id="image4">
+    <property name="width-request">40</property>
+    <property name="height-request">40</property>
     <property name="visible">True</property>
     <property name="can-focus">False</property>
+    <property name="margin-right">2</property>
+    <property name="margin-top">1</property>
     <property name="pixel-size">30</property>
     <property name="icon-name">attach</property>
   </object>
@@ -436,6 +442,8 @@
     <property name="icon-name">close</property>
   </object>
   <object class="GtkImage" id="image9">
+    <property name="width-request">40</property>
+    <property name="height-request">40</property>
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">40</property>
@@ -670,8 +678,8 @@
             </child>
             <child>
               <object class="GtkButton" id="btn_profile_sett">
-                <property name="width-request">30</property>
-                <property name="height-request">25</property>
+                <property name="width-request">40</property>
+                <property name="height-request">40</property>
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="focus-on-click">False</property>
@@ -687,8 +695,8 @@
             </child>
             <child>
               <object class="GtkButton" id="btn_change_theme">
-                <property name="width-request">30</property>
-                <property name="height-request">25</property>
+                <property name="width-request">40</property>
+                <property name="height-request">40</property>
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="focus-on-click">False</property>
@@ -906,8 +914,8 @@
                     <property name="can-focus">False</property>
                     <child>
                       <object class="GtkButton" id="btn_attachment">
-                        <property name="width-request">30</property>
-                        <property name="height-request">30</property>
+                        <property name="width-request">40</property>
+                        <property name="height-request">40</property>
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
                         <property name="focus-on-click">False</property>
@@ -2993,11 +3001,14 @@
             <property name="orientation">vertical</property>
             <child>
               <object class="GtkLabel">
-                <property name="height-request">20</property>
+                <property name="height-request">30</property>
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="label" translatable="yes">Login</property>
                 <property name="xalign">0</property>
+                <attributes>
+                  <attribute name="font-desc" value="Noto Mono 12"/>
+                </attributes>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -3007,11 +3018,14 @@
             </child>
             <child>
               <object class="GtkLabel" id="label_user_info_login">
-                <property name="height-request">20</property>
+                <property name="height-request">30</property>
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="label" translatable="yes">login</property>
                 <property name="xalign">0</property>
+                <attributes>
+                  <attribute name="font-desc" value="Noto Mono 12"/>
+                </attributes>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -3033,11 +3047,14 @@
             <property name="orientation">vertical</property>
             <child>
               <object class="GtkLabel">
-                <property name="height-request">20</property>
+                <property name="height-request">30</property>
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="label" translatable="yes">Status</property>
                 <property name="xalign">0</property>
+                <attributes>
+                  <attribute name="font-desc" value="Noto Mono 12"/>
+                </attributes>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -3134,12 +3151,15 @@
             <property name="can-focus">False</property>
             <child>
               <object class="GtkLabel" id="label_prefs_roomname">
-                <property name="width-request">220</property>
-                <property name="height-request">40</property>
+                <property name="width-request">350</property>
+                <property name="height-request">30</property>
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="label" translatable="yes">Room Name</property>
                 <property name="xalign">0</property>
+                <attributes>
+                  <attribute name="font-desc" value="Noto Mono 12"/>
+                </attributes>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -3154,6 +3174,8 @@
                 <property name="tooltip-text" translatable="yes">The total amount of energy spent on messages in the room</property>
                 <child>
                   <object class="GtkImage">
+                    <property name="width-request">30</property>
+                    <property name="height-request">30</property>
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
                     <property name="icon-name">energy</property>
@@ -3166,9 +3188,13 @@
                 </child>
                 <child>
                   <object class="GtkLabel" id="label_room_energy">
+                    <property name="height-request">30</property>
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="label" translatable="yes">1337 Wt</property>
+                    <property name="label" translatable="yes">trash</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Noto Mono 12"/>
+                    </attributes>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -3202,6 +3228,9 @@
                 <property name="can-focus">False</property>
                 <property name="label" translatable="yes">Customer</property>
                 <property name="xalign">0</property>
+                <attributes>
+                  <attribute name="font-desc" value="Noto Mono 12"/>
+                </attributes>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -3211,10 +3240,14 @@
             </child>
             <child>
               <object class="GtkLabel" id="label_prefs_customer">
+                <property name="height-request">20</property>
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="label" translatable="yes">customer login</property>
+                <property name="label" translatable="yes">Customers login</property>
                 <property name="xalign">0</property>
+                <attributes>
+                  <attribute name="font-desc" value="Noto Mono 12"/>
+                </attributes>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -3241,6 +3274,9 @@
                 <property name="can-focus">False</property>
                 <property name="label" translatable="yes">Description</property>
                 <property name="xalign">0</property>
+                <attributes>
+                  <attribute name="font-desc" value="Noto Mono 12"/>
+                </attributes>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -3288,11 +3324,14 @@
             <property name="orientation">vertical</property>
             <child>
               <object class="GtkLabel">
-                <property name="height-request">20</property>
+                <property name="height-request">30</property>
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="label" translatable="yes">Members</property>
                 <property name="xalign">0</property>
+                <attributes>
+                  <attribute name="font-desc" value="Noto Mono 12"/>
+                </attributes>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -3302,6 +3341,7 @@
             </child>
             <child>
               <object class="GtkSearchEntry" id="sentry_members">
+                <property name="height-request">30</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="primary-icon-name">search</property>
