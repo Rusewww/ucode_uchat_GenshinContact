@@ -729,7 +729,6 @@ dialog headerbar {
 }
 .listbox_members row:hover {
     background-color: rgb(229, 231, 244);
-    background-image: url("anemo.jpg");
 }
 .listbox_members row:selected {
     background-color: #009966;
@@ -751,7 +750,7 @@ dialog headerbar {
 /* Overshoot deactivation */
 
 overshoot.bottom {
-    background-image: none;
+    background-image: url("anemo.jpg");
 }
 overshoot.top {
     background-image: none;
