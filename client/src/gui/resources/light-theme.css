@@ -160,8 +160,8 @@ headerbar box label {
 	color: #403E3D; 
 }
 dialog headerbar {
-    background: rgb(229,229,229);
-    background: linear-gradient(180deg, rgba(229,229,229,1) 0%, rgba(205,205,205,1) 100%);
+    background: rgb(51,255,204);
+    background: linear-gradient(180deg, rgba(51,255,204,1) 0%, rgba(0,204,153,1) 100%);
 }
 .rooms-list, .stack_messages list, .rooms-list .activatable:selected {
 	background: transparent;
