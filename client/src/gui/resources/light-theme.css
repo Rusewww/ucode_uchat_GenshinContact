@@ -573,10 +573,12 @@ dialog headerbar {
 .box-room-settings {
 	margin: 22px 45px 0 45px;
 }
+
+/*imya komnaty*/
+
 .box-room-settings entry {
 	border: 1px solid #E8ECF8;
 	background-color: #F2F4FF;
-    background-image: url("anemo.jpg");
 	border-radius: 5px;
 	padding: 0 8px;
     font-weight: 300;
@@ -586,6 +588,7 @@ dialog headerbar {
 .box-room-settings textview text, .box-room-info textview text,
 #dialog_profile_prefs textview text, .dialog_user_info textview text {
     background-color: #F2F4FF;
+    background-image: url("anemo.jpg");
     box-shadow: none;
     border: 1px solid #E8ECF8;
     border-radius: 5px;
