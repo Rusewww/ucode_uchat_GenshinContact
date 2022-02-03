@@ -446,12 +446,12 @@
     <property name="icon-name">close</property>
   </object>
   <object class="GtkImage" id="image9">
-    <property name="width-request">50</property>
+    <property name="width-request">40</property>
     <property name="height-request">40</property>
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="margin-bottom">1</property>
-    <property name="pixel-size">50</property>
+    <property name="pixel-size">45</property>
     <property name="icon-name">settings</property>
   </object>
   <object class="GtkImage" id="img_sticker_1">
