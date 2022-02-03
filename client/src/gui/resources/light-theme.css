@@ -525,7 +525,6 @@ dialog headerbar {
 }
 .box_msg_ctrl {
     background-color: #99FFCC;
-    background-image: url("anemo.jpg");
     border-bottom: 1px solid #00CC99;
     padding: 7px 25px;
 }
@@ -577,6 +576,7 @@ dialog headerbar {
 .box-room-settings entry {
 	border: 1px solid #E8ECF8;
 	background-color: #F2F4FF;
+    background-image: url("anemo.jpg");
 	border-radius: 5px;
 	padding: 0 8px;
     font-weight: 300;
