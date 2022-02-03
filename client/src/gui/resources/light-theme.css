@@ -753,7 +753,7 @@ overshoot.bottom {
     background-image: none;
 }
 overshoot.top {
-    background-image: url("anemo.jpg");
+    background-image: none;
 }
 
 /* Stickers area stiles */
@@ -771,6 +771,7 @@ overshoot.top {
 	padding: 11px 25px 11px 25px;
 	border-bottom: 1px solid #00CC99;
 	background-color: transparent;
+    background-image: url("anemo.jpg");
 }
 .box_stickers_header label {
     color: #323B59;
