@@ -4,7 +4,6 @@ void mx_msgcreate_box_energy(GtkWidget *box_status, t_gmsg *gmsg) {
     GtkWidget *box_energy = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
     GtkWidget *img = gtk_image_new_from_icon_name(" ",
                                                   GTK_ICON_SIZE_MENU);
-    gchar *wat_str = g_strdup_printf(" ", gmsg->power);
     GtkWidget *value = gtk_label_new(wat_str);
 
     gtk_box_pack_start(GTK_BOX(box_energy), img, FALSE, TRUE, 0);
