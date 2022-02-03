@@ -54,7 +54,7 @@ box stack, entry, .dialog_notebook header {
     font-weight: 400;
 }
 .dialog_auth entry, .dialog_addroom entry {
-	background-color: #00FFCC;
+	background-color: #DDFFDD;
 	border-radius: 5px;
     padding: 1px 10px;
 }
@@ -83,7 +83,7 @@ button {
     background-color: rgba(0,153,153,.7);
 }
 .box-functional-buttons button {
-    background-color: #00FFCC;
+    background-color: #DDFFDD;
     color: #8895A3;
     padding: 8px 0;
     font-size: 14px;
@@ -173,7 +173,7 @@ dialog headerbar {
 /* Search entry styles */
 
 .wnd_main .search, .wnd-room-info .search {
-	background-color: #00FFCC;
+	background-color: #DDFFDD;
 	border-radius: 5px;
     padding: 2px 8px 1px 8px;
     font-weight: 300;
@@ -281,7 +281,7 @@ dialog headerbar {
     background-color: rgba(0,153,153,.8);
 }
 .wnd_main .hovering {
-    background-color: #00FFCC;
+    background-color: #DDFFDD;
 	border: none;
 }
 .wnd_main .dragging slider {
