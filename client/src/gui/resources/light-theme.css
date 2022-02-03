@@ -89,8 +89,8 @@ button {
 
 .box-functional-buttons button {
     background-color: #94d6ba;
-    color: #94d6ba;
-    padding: 8px 0;
+    color: #4b6154;
+    padding: 16px 0;
     font-size: 14px;
     font-weight: 500;
     border-radius: 3px;
@@ -221,7 +221,7 @@ dialog headerbar {
 }
 
 .rooms-list row, .rooms-list row label {
-    color: #94d6ba;
+    color: #4b6154;
     outline: none;
 }
 
