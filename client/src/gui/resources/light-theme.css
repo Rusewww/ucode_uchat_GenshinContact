@@ -750,10 +750,10 @@ dialog headerbar {
 /* Overshoot deactivation */
 
 overshoot.bottom {
-    background-image: url("anemo.jpg");
+    background-image: none;
 }
 overshoot.top {
-    background-image: none;
+    background-image: url("anemo.jpg");
 }
 
 /* Stickers area stiles */
