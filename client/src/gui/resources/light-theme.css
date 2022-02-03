@@ -579,7 +579,7 @@ dialog headerbar {
 
 .box-room-settings entry {
 	border: 1px solid #1c4a47;
-	background-color: #94d6ba;
+	background-color: #e7f5dc;
 	border-radius: 5px;
 	padding: 0 8px;
     font-weight: 300;
@@ -591,11 +591,11 @@ dialog headerbar {
 
 .box-room-settings textview text, .box-room-info textview text,
 #dialog_profile_prefs textview text, .dialog_user_info textview text {
-    background-color: #F2F4FF;
+    background-color: #e7f5dc;
     box-shadow: none;
-    border: 1px solid #E8ECF8;
+    border: 1px solid #1c4a47;
     border-radius: 5px;
-    color: #737A82;
+    color:  #202020;
     font-weight: 300;
 }
 .box-room-settings textview, .box-room-info textview {
