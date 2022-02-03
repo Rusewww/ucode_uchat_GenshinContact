@@ -479,7 +479,6 @@ dialog headerbar {
 .stack_messages list row:selected .box_msg_info > label,
 .stack_messages list row:selected .box_own_msg_info > label {
     background-color: #009966;
-    background-image: url("anemo.jpg");
     color: #99FFCC;
 }
 .stack_messages list row:selected .box_own_sticker_info > image {
@@ -512,6 +511,7 @@ dialog headerbar {
 .stack_messages list row:selected .box_file_info .file-button,
 .stack_messages list row:selected .box_own_file_info .file-button {
     background-color: #009966;
+    background-image: url("anemo.jpg");
 }
 .stack_messages list row:selected .box_file_info .file-button label,
 .stack_messages list row:selected .box_own_file_info .file-button label {
