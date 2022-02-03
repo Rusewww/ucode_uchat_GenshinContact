@@ -6,14 +6,12 @@
     outline-color: #00CC99;
     outline-style: double;
 }
--
 button {
     -gtk-icon-effect: none;
     -gtk-icon-shadow: none;
     text-shadow: none;
     box-shadow: none;
 }
-
 list row {
     box-shadow: none;   
 }
@@ -36,7 +34,7 @@ button, .input, entry, notebook, .dialog_auth .titlebar, button image  {
 .dialog_auth textview selection, .wnd_main textview selection,
 .box-room-settings textview selection, .box-room-info textview selection,
 #dialog_profile_prefs textview selection, .dialog_user_info textview selection {
-	background-color: #009966;
+	background-color: #5771E5;
 }
 box stack, entry, .dialog_notebook header {
     background-color: transparent;
@@ -56,7 +54,7 @@ box stack, entry, .dialog_notebook header {
     font-weight: 400;
 }
 .dialog_auth entry, .dialog_addroom entry {
-	background-color: #FFFFFF;
+	background-color: #00FFCC;
 	border-radius: 5px;
     padding: 1px 10px;
 }
@@ -67,7 +65,7 @@ button {
     background-image: none;
 }
 .dialog-action-area button {
-    background-color: #009966;
+    background-color: #5771E5;
     box-shadow: none;
     padding: 12px 40px;
     border-radius: 2px;
@@ -85,7 +83,7 @@ button {
     background-color: rgba(87,113,229,.7);
 }
 .box-functional-buttons button {
-    background-color: #FFFFFF;
+    background-color: #00FFCC;
     color: #8895A3;
     padding: 8px 0;
     font-size: 14px;
@@ -94,7 +92,7 @@ button {
     border: 1px solid transparent;
 }
 .box-functional-buttons button:hover {
-    border: 1px solid #009966;
+    border: 1px solid #5771E5;
 }
 button label {
     box-shadow: none;
@@ -162,8 +160,8 @@ headerbar box label {
 	color: #403E3D; 
 }
 dialog headerbar {
-    background: rgb(51,255,204);
-    background: linear-gradient(180deg, rgba(51,255,204,1) 0%, rgba(0,204,153,1) 100%);
+    background: rgb(229,229,229);
+    background: linear-gradient(180deg, rgba(229,229,229,1) 0%, rgba(205,205,205,1) 100%);
 }
 .rooms-list, .stack_messages list, .rooms-list .activatable:selected {
 	background: transparent;
@@ -175,7 +173,7 @@ dialog headerbar {
 /* Search entry styles */
 
 .wnd_main .search, .wnd-room-info .search {
-	background-color: #FFFFFF;
+	background-color: #00FFCC;
 	border-radius: 5px;
     padding: 2px 8px 1px 8px;
     font-weight: 300;
@@ -283,7 +281,7 @@ dialog headerbar {
     background-color: rgba(87,113,229,.8);
 }
 .wnd_main .hovering {
-    background-color: #FFFFFF;
+    background-color: #00FFCC;
 	border: none;
 }
 .wnd_main .dragging slider {
@@ -301,11 +299,11 @@ dialog headerbar {
 /* Title bar styles */
 
 .box_titlebar {
-    background-color: #009966;
+    background-color: #5771E5;
 	padding: 0 25px;
 }
 .box_titlebar button {
-    background-color: #FFFFFF;
+    background-color: #F2F4FF;
     padding: 3px 8px;
     margin-top: 7px;
     margin-bottom: 7px;
@@ -376,7 +374,7 @@ dialog headerbar {
 	color: #737A82; 
 }
 .stack_messages list .box_msg_info > label, .box_file_info .file-button {
-    background-color: #FFFFFF;
+    background-color: #F2F4FF;
     border-radius: 0 8px 8px 8px;
 }
 .stack_messages list .box_own_msg_info > label, .box_own_file_info .file-button {
@@ -411,16 +409,16 @@ dialog headerbar {
 }
 .stack_messages list row:selected .box_msg_info > label,
 .stack_messages list row:selected .box_own_msg_info > label {
-    background-color: #009966;
+    background-color: #5771E5;
     color: #99FFCC;
 }
 .stack_messages list row:selected .box_own_sticker_info > image {
-    border-right: 8px solid #009966;
+    border-right: 8px solid #5771E5;
     border-radius: 5px;
     padding-right: 7px;
 }
 .stack_messages list row:selected .box_sticker_info > image {
-    border-left: 8px solid #009966;
+    border-left: 8px solid #5771E5;
     border-radius: 5px;
     padding-left: 7px;
 }
@@ -443,7 +441,7 @@ dialog headerbar {
 }
 .stack_messages list row:selected .box_file_info .file-button,
 .stack_messages list row:selected .box_own_file_info .file-button {
-    background-color: #009966;
+    background-color: #5771E5;
 }
 .stack_messages list row:selected .box_file_info .file-button label,
 .stack_messages list row:selected .box_own_file_info .file-button label {
@@ -462,13 +460,13 @@ dialog headerbar {
     padding: 7px 25px;
 }
 .box_msg_ctrl button {
-	background-color: #009966;
+	background-color: #5771E5;
 }
 #box_edit_msg {
 	margin: 0 25px 10px 25px;
 }
 #box_edit_msg label:first-child {
-	color: #009966;
+	color: #5771E5;
 	font-weight: 400;
 	font-size: 15px;
 }
@@ -508,7 +506,7 @@ dialog headerbar {
 }
 .box-room-settings entry {
 	border: 1px solid #E8ECF8;
-	background-color: #FFFFFF;
+	background-color: #F2F4FF;
 	border-radius: 5px;
 	padding: 0 8px;
     font-weight: 300;
@@ -517,7 +515,7 @@ dialog headerbar {
 }
 .box-room-settings textview text, .box-room-info textview text,
 #dialog_profile_prefs textview text, .dialog_user_info textview text {
-    background-color: #FFFFFF;
+    background-color: #F2F4FF;
     box-shadow: none;
     border: 1px solid #E8ECF8;
     border-radius: 5px;
@@ -545,7 +543,7 @@ dialog headerbar {
 }
 .box-room-settings > box:first-child box:last-child scrolledwindow {
 	border-radius: 5px;
-	background-color: #FFFFFF;
+	background-color: #F2F4FF;
 	border: 1px solid #E8ECF8;
 }
 
@@ -584,7 +582,7 @@ dialog headerbar {
 }
 .box-room-info box:last-child scrolledwindow {
 	border-radius: 5px;
-	background-color: #FFFFFF;
+	background-color: #F2F4FF;
 	border: 1px solid #E8ECF8;
 }
 .box-room-info > label {
@@ -658,7 +656,7 @@ dialog headerbar {
     background-color: rgb(229, 231, 244);
 }
 .listbox_members row:selected {
-    background-color: #009966;
+    background-color: #5771E5;
 }
 .listbox_members row:selected label,
 .listbox_members row:selected:hover {
@@ -706,7 +704,7 @@ overshoot.top {
 .box_stickers_header button {
 	font-weight: 300;
     font-size: 12px;
-    background-color: #009966;
+    background-color: #5771E5;
 }
 .box_stickers_area {
     border-left: 1px solid #00CC99;
@@ -756,5 +754,5 @@ overshoot.top {
 }
 .box_msg_ctrl > box:first-child {
 	font-size: 14px;
-	color: #009966;
+	color: #5771E5;
 }
