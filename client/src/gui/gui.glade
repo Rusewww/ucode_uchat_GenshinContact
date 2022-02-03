@@ -2466,7 +2466,7 @@
                     <property name="label" translatable="yes">Login</property>
                     <property name="xalign">0</property>
                     <attributes>
-                      <attribute name="font-desc" value="Noto Mono 12"/>
+                      <attribute name="font-desc" value="Noto Mono Bold 14"/>
                     </attributes>
                   </object>
                   <packing>
@@ -2512,7 +2512,7 @@
                     <property name="label" translatable="yes">Status</property>
                     <property name="xalign">0</property>
                     <attributes>
-                      <attribute name="font-desc" value="Noto Mono 12"/>
+                      <attribute name="font-desc" value="Noto Mono Bold 14"/>
                     </attributes>
                   </object>
                   <packing>
