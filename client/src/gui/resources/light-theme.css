@@ -694,7 +694,6 @@ dialog headerbar {
     font-size: 14px;
     padding-top: 8px;
     background-color: transparent;
-    background-image: url("anemo.jpg");
     font-weight: 300;
 }
 
@@ -730,6 +729,7 @@ dialog headerbar {
 }
 .listbox_members row:hover {
     background-color: rgb(229, 231, 244);
+    background-image: url("anemo.jpg");
 }
 .listbox_members row:selected {
     background-color: #009966;
