@@ -357,11 +357,10 @@ dialog headerbar {
 	opacity: 1;
 }
 
-/* Title bar styles */
+/* Verhniy poisk */
 
 .box_titlebar {
     background-color: #009966;
-    background-image: url("anemo.jpg");
 	padding: 0 25px;
 }
 .box_titlebar button {
@@ -383,6 +382,7 @@ dialog headerbar {
 .box_msg_send {
 	margin: 0 25px 25px 25px;
     background-color: transparent;
+    background-image: url("anemo.jpg");
     border: 1px solid #00CC99;
 	padding: 15px 33px 15px 25px;
 	border-radius: 8px;
