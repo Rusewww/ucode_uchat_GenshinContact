@@ -658,7 +658,6 @@ dialog headerbar {
 .box-room-info box:last-child scrolledwindow {
 	border-radius: 5px;
 	background-color: #F2F4FF;
-    background-image: url("anemo.jpg");
 	border: 1px solid #E8ECF8;
 }
 .box-room-info > label {
@@ -695,6 +694,7 @@ dialog headerbar {
     font-size: 14px;
     padding-top: 8px;
     background-color: transparent;
+    background-image: url("anemo.jpg");
     font-weight: 300;
 }
 
