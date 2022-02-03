@@ -294,14 +294,16 @@ dialog headerbar {
 	box-shadow: none;
 }
 
+/*Panelka s komnatami*/
+
 .box-rooms {
     background-color: #F9FAFF;
-    background-image: url("anemo.jpg");
 }
 
 .boxroom_header-in {
     border-bottom: 1px solid #00CC99;
     background-color: transparent;
+    background-image: url("anemo.jpg");
     padding: 0 25px;
     font-size: 17px;
 }
