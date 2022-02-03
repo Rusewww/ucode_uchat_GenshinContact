@@ -53,12 +53,13 @@ box stack, entry, .dialog_notebook header {
     font-size: 15px;
     font-weight: 400;
 }
+
 .dialog_auth entry, .dialog_addroom entry {
 	background-color: #DDFFDD;
-    background-image: url("anemo.jpg");
 	border-radius: 5px;
     padding: 1px 10px;
 }
+
 .dialog-action-area {
     margin-bottom: 45px;
 }
@@ -67,6 +68,7 @@ button {
 }
 .dialog-action-area button {
     background-color: #009966;
+    background-image: url("anemo.jpg");
     box-shadow: none;
     padding: 12px 40px;
     border-radius: 2px;
