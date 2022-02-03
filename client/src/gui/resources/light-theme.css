@@ -30,6 +30,13 @@ tr, .dialog_auth, .wnd_main, .dialog_addroom,
 .dialog_join_to_room, .dialog_user_info {
     background: #99FFCC;
     background-image: url("anemo.png") repeat-y;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .dialog_auth entry selection, .wnd_main entry selection,
 .dialog_auth textview selection, .wnd_main textview selection,
