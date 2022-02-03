@@ -361,7 +361,7 @@ dialog headerbar {
 /* Verhniy poisk */
 
 .box_titlebar {
-    background-color: #e7f5dc;
+    background-color: #64ac8f;
 	padding: 0 25px;
 }
 .box_titlebar button {
@@ -428,7 +428,7 @@ dialog headerbar {
 /* Message styling */
 
 .sender_login {
-    color: #798097;
+    color: #202020;
     margin-top: 10px;
     font-size: 14px;
 }
@@ -444,11 +444,11 @@ dialog headerbar {
 	color: #737A82; 
 }
 .stack_messages list .box_msg_info > label, .box_file_info .file-button {
-    background-color: #F2F4FF;
+    background-color: #c0dfc2;
     border-radius: 0 8px 8px 8px;
 }
 .stack_messages list .box_own_msg_info > label, .box_own_file_info .file-button {
-	background-color: #E7F3FF;
+	background-color: #c0dfc2;
 	border-radius: 8px 8px 0 8px;
 }
 .stack_messages list .box_msg_info > box > label,
@@ -525,7 +525,7 @@ dialog headerbar {
     background-color: transparent;
 }
 .box_msg_ctrl {
-    background-color: #ffffff;
+    background-color: #94d6ba;
     border-bottom: 1px solid #00CC99;
     padding: 7px 25px;
 }
