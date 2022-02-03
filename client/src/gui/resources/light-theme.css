@@ -316,9 +316,10 @@ dialog headerbar {
     padding: 4px 7px;
 }
 
+/*nazvanie komnaty*/
+
 .boxroom_header-in label {
     color: #323B59;
-    background-image: url("anemo.jpg");
 }
 
 .boxroom_header-in button:nth-child(4) {
@@ -360,6 +361,7 @@ dialog headerbar {
 
 .box_titlebar {
     background-color: #009966;
+    background-image: url("anemo.jpg");
 	padding: 0 25px;
 }
 .box_titlebar button {
