@@ -767,12 +767,15 @@ overshoot.top {
 .stickers_box button {
 	background-image: none;
 }
+
+/*Stiker top*/
+
 .box_stickers_header {
 	padding: 11px 25px 11px 25px;
 	border-bottom: 1px solid #00CC99;
 	background-color: transparent;
-    background-image: url("anemo.jpg");
 }
+
 .box_stickers_header label {
     color: #323B59;
     font-size: 14px;
@@ -781,6 +784,7 @@ overshoot.top {
 	font-weight: 300;
     font-size: 12px;
     background-color: #009966;
+    background-image: url("anemo.jpg");
 }
 .box_stickers_area {
     border-left: 1px solid #00CC99;
