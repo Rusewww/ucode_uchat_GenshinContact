@@ -34,7 +34,6 @@ button, .input, entry, notebook, .dialog_auth .titlebar, button image  {
 .dialog_auth textview selection, .wnd_main textview selection,
 .box-room-settings textview selection, .box-room-info textview selection,
 #dialog_profile_prefs textview selection, .dialog_user_info textview selection {
-	background-color: #009966;
     background-image: url("anemo.jpg");
 }
 box stack, entry, .dialog_notebook header {
