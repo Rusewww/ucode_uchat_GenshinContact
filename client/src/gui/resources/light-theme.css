@@ -35,7 +35,7 @@ button, .input, entry, notebook, .dialog_auth .titlebar, button image  {
 .dialog_auth textview selection, .wnd_main textview selection,
 .box-room-settings textview selection, .box-room-info textview selection,
 #dialog_profile_prefs textview selection, .dialog_user_info textview selection {
-    background-color: #4b6154;
+    background-color: #e7f5dc;
 }
 box stack, entry, .dialog_notebook header {
     background-color: transparent;
@@ -53,7 +53,7 @@ box stack, entry, .dialog_notebook header {
 }
 
 .dialog_auth entry, .dialog_addroom entry {
-    background-color: #4b6154;
+    background-color: #e7f5dc;
     border-radius: 5px;
     padding: 1px 10px;
 }
@@ -224,7 +224,7 @@ dialog headerbar {
     background: none;
     padding: 15px;
     border-radius: 100px;
-    background-color: #4b6154;
+    background-color: #e7f5dc;
     margin: 20px 0 25px 0;
 }
 .add-room-button:hover {
@@ -251,7 +251,7 @@ dialog headerbar {
 }
 .boxroom_header-in button {
     background-image: none;
-    background-color: #4b6154;
+    background-color: #e7f5dc;
     padding: 5px 8px;
 }
 .boxroom_header-in label {
@@ -289,7 +289,7 @@ dialog headerbar {
     padding: 0 25px;
 }
 .box_titlebar button {
-    background-color: #4b6154;
+    background-color: #e7f5dc;
     padding: 3px 8px;
     margin-top: 7px;
     margin-bottom: 7px;
@@ -485,7 +485,7 @@ dialog headerbar {
 /* Search entry styles */
 
 .wnd_main .search, .wnd-room-info .search {
-    background-color: #4b6154;
+    background-color: #e7f5dc;
     border-radius: 5px;
     padding: 2px 8px 1px 8px;
     font-weight: 300;
@@ -507,7 +507,7 @@ dialog headerbar {
 }
 .box-room-settings entry {
     border: 1px solid #e7f5dc;
-    background-color: #4b6154;
+    background-color: #e7f5dc;
     border-radius: 5px;
     padding: 0 8px;
     font-weight: 300;
@@ -516,7 +516,7 @@ dialog headerbar {
 }
 .box-room-settings textview text, .box-room-info textview text,
 #dialog_profile_prefs textview text, .dialog_user_info textview text {
-    background-color: #4b6154;
+    background-color: #e7f5dc;
     box-shadow: none;
     border: 1px solid #48547E;
     border-radius: 5px;
@@ -544,7 +544,7 @@ dialog headerbar {
 }
 .box-room-settings > box:first-child box:last-child scrolledwindow {
     border-radius: 5px;
-    background-color: #4b6154;
+    background-color: #e7f5dc;
     border: 1px solid #48547E;
 }
 
@@ -636,7 +636,7 @@ overshoot.top {
 }
 .box-room-info box:last-child scrolledwindow {
     border-radius: 5px;
-    background-color: #4b6154;
+    background-color: #e7f5dc;
     border: 1px solid #48547E;
 }
 .box-room-info > label {
@@ -755,7 +755,7 @@ overshoot.top {
     margin-bottom: 5px;
 }
 .arrow-down-btn {
-    background: #4b6154;
+    background: #e7f5dc;
     border-radius: 10px;
 }
 .arrow-down-btn:hover {
