@@ -228,7 +228,7 @@ dialog headerbar {
     margin: 20px 0 25px 0;
 }
 .add-room-button:hover {
-    background-color: rgb(66,78, 120);
+    background-color: #87479d;
 }
 .wnd_main scrolledwindow overshoot, scrolledwindow undershoot {
 	box-shadow: none;
