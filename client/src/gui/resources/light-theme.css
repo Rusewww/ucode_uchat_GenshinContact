@@ -365,7 +365,7 @@ dialog headerbar {
     border-radius: 0 8px 8px 8px;
 }
 .stack_messages list .box_own_msg_info > label, .box_own_file_info .file-button {
-    background-color: #1b2e28;
+    background-color: #c0dfc2;
     border-radius: 8px 8px 0 8px;
 }
 .stack_messages list .box_msg_info > box > label,
