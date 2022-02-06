@@ -82,7 +82,7 @@ button {
     background-color: rgba(255,255,255,.7);
 }
 .box-functional-buttons button {
-    background-color: #e7d5f9;
+    background-color: #660066;
     color: #fff;
     padding: 8px 0;
     font-size: 14px;
@@ -238,13 +238,13 @@ dialog headerbar {
 }
 .box-rooms {
     box-shadow: 10px 5px 10px -2px rgba(0,0,0,.065);
-	border-right: 1px solid #e7d5f9;
+	border-right: 1px solid #660066;
 }
 .box_room_header {
     box-shadow: 5px 10px 10px -2px rgba(0,0,0,.065);
 }
 .boxroom_header-in {
-    border-bottom: 1px solid #e7d5f9;
+    border-bottom: 1px solid #660066;
     background-color: #364165;
     padding: 0 25px;
     font-size: 17px;
@@ -306,7 +306,7 @@ dialog headerbar {
 
 .box_msg_send {
 	margin: 0 25px 25px 25px;
-	background-color: #e7d5f9;
+	background-color: #660066;
 	padding: 15px 33px 15px 25px;
 	border-radius: 8px;
 }
@@ -322,7 +322,7 @@ dialog headerbar {
     font-size: 15px;
 }
 .box_msg_send scrolledwindow {
-	border: 1px solid #e7d5f9;
+	border: 1px solid #660066;
 }
 .stack_messages > label {
     color: #B8C2E5;
@@ -361,7 +361,7 @@ dialog headerbar {
 	color: #B8C2E5; 
 }
 .stack_messages list .box_msg_info > label, .box_file_info .file-button {
-    background-color: #e7d5f9;
+    background-color: #660066;
     border-radius: 0 8px 8px 8px;
 }
 .stack_messages list .box_own_msg_info > label, .box_own_file_info .file-button {
@@ -474,7 +474,7 @@ dialog headerbar {
 	border-top-left-radius: 8px;
 }
 .label_search_result {
-    background-color: #e7d5f9;
+    background-color: #660066;
     color: #919CC0;
     font-size: 14px;
 }
@@ -506,7 +506,7 @@ dialog headerbar {
 	margin: 22px 45px 0 45px;
 }
 .box-room-settings entry {
-	border: 1px solid #e7d5f9;
+	border: 1px solid #660066;
 	background-color: #3A466B;
 	border-radius: 5px;
 	padding: 0 8px;
@@ -573,7 +573,7 @@ overshoot.top {
 }
 .box_stickers_header {
 	padding: 11px 25px 10px 25px;
-	border-bottom: 1px solid #e7d5f9;
+	border-bottom: 1px solid #660066;
 	background-color: #364165;
 }
 .box_stickers_header label {
@@ -588,7 +588,7 @@ overshoot.top {
     opacity: .7;
 }
 .box_stickers_area {
-    border-left: 1px solid #e7d5f9;
+    border-left: 1px solid #660066;
 }
 .box_stickers_area scrolledwindow{
     box-shadow: -10px 5px 10px -2px rgba(0,0,0,.065);
@@ -707,7 +707,7 @@ overshoot.top {
     margin-bottom: 7px;
 }
 .listbox_members row:hover {
-    background-color: #e7d5f9;
+    background-color: #660066;
 }
 .listbox_members row:selected {
 	background-color: #6785FF;
