@@ -140,7 +140,7 @@ headerbar {
 }
 .dialog_notebook tab:checked {
     box-shadow: none;
-    box-shadow: 0 -3px #94d6ba inset;
+    box-shadow: 0 -3px #007261 inset;
 }
 .dialog_notebook tab label {
     font-weight: 500;
@@ -148,7 +148,7 @@ headerbar {
     color: rgba(255,255,255,.6);
 }
 .dialog_notebook tab:hover label {
-    color: rgba(32, 32, 32,.8);
+    color: rgba(255,255,255,.8);
 }
 .dialog_notebook tab:checked label {
     color: #fff;
@@ -156,7 +156,7 @@ headerbar {
 headerbar box label {
     font-size: 14px;
     font-weight: 400;
-    color: #202020;
+    color: #403E3D;
 }
 dialog headerbar {
     background: rgb(229,229,229);
@@ -317,7 +317,7 @@ dialog headerbar {
 }
 .box_msg_send textview text,  .box_msg_send textview {
     background-color: transparent;
-    color: #1b2e28;
+    color: #B8C2E5;
     font-weight: 300;
     font-size: 15px;
 }
@@ -358,7 +358,7 @@ dialog headerbar {
     margin-left: 7px;
     font-weight: 300;
     font-size: 14px;
-    color: #1b2e28;
+    color: #B8C2E5;
 }
 .stack_messages list .box_msg_info > label, .box_file_info .file-button {
     background-color: #e7f5dc;
@@ -376,7 +376,7 @@ dialog headerbar {
 .box_file_info > box:last-child > label {
     font-size: 13px;
     font-weight: 300;
-    color: #1b2e28;
+    color: #919CC0;
 }
 .stack_messages list .box_msg_info >  box ,
 .stack_messages list .box_sticker_info > box,
@@ -415,7 +415,7 @@ dialog headerbar {
 .stack_messages list .box_own_msg_info > box > box,
 .stack_messages list .box_own_sticker_info > box > box {
     font-size: 13px;
-    color: #1b2e28;
+    color: #B8C2E5;
 }
 
 /* Box file info styles */
@@ -457,7 +457,7 @@ dialog headerbar {
     font-size: 15px;
 }
 #box_edit_msg label:last-child {
-    color: #1b2e28;
+    color: #919CC0;
     font-weight: 300;
     font-size: 14px;
 }
@@ -475,7 +475,7 @@ dialog headerbar {
 }
 .label_search_result {
     background-color: #e7f5dc;
-    color: #1b2e28;
+    color: #919CC0;
     font-size: 14px;
 }
 #dialog_profile_prefs .dialog-action-area button {
@@ -507,7 +507,7 @@ dialog headerbar {
 }
 .box-room-settings entry {
     border: 1px solid #e7f5dc;
-    background-color: #1b2e28;
+    background-color: #e7f5dc;
     border-radius: 5px;
     padding: 0 8px;
     font-weight: 300;
@@ -534,7 +534,7 @@ dialog headerbar {
 }
 .box-room-settings > box:first-child label {
     font-size: 14px;
-    color: #1b2e28;
+    color: #D8DCE8;
     margin-top: 10px;
     margin-bottom: 7px;
     font-weight: 500;
@@ -609,7 +609,7 @@ overshoot.top {
 }
 .box-room-info box label:first-child {
     font-size: 14px;
-    color: #1b2e28;
+    color: #D8DCE8;
     font-weight: 500;
 }
 .box-room-info > box:nth-child(2) label:last-child {
@@ -654,7 +654,7 @@ overshoot.top {
 }
 #dialog_profile_prefs > box:first-child label:first-child {
     font-size: 14px;
-    color: #1b2e28;
+    color: #D8DCE8;
     font-weight: 500;
 }
 #dialog_profile_prefs > box:first-child label:last-child  {
@@ -686,7 +686,7 @@ overshoot.top {
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 9px;
-    color: #1b2e28;
+    color: #D8DCE8;
 }
 .dialog_confirmation .dialog-vbox > box:first-child label:last-child {
     font-size: 18px;
