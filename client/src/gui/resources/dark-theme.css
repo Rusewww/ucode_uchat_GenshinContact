@@ -311,7 +311,7 @@ dialog headerbar {
 	border-radius: 8px;
 }
 .button_send_message, .btn_confirm_changes {
-	background-color: #2F3857;
+	background-color: #87479d;
 	border-radius: 100px;
 	padding: 13px;
 }
