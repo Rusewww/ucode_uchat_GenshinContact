@@ -710,10 +710,10 @@ overshoot.top {
     background-color: #e7f5dc;
 }
 .listbox_members row:selected {
-    background-color: #6785FF;
+    background-color: #94d6ba;
 }
 .listbox_members row:selected:hover {
-    background-color: #5F7BEE;
+    background-color: #64ac8f;
 }
 .listbox_members row button {
     padding: 0;
