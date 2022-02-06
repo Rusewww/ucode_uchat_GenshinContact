@@ -127,7 +127,7 @@ headerbar {
     border: none;
 }
 .dialog_notebook tab{
-    color: #fff;
+    color: #007261;
     padding-top: 7px;
     padding-bottom: 8px;
     outline: none;
@@ -151,7 +151,7 @@ headerbar {
     color: rgba(255,255,255,.8);
 }
 .dialog_notebook tab:checked label {
-    color: #fff;
+    color: #007261;
 }
 headerbar box label {
     font-size: 14px;
@@ -172,7 +172,7 @@ dialog headerbar {
     padding: 0;
 }
 .rooms-list row, .rooms-list row label {
-    color: #fff;
+    color: #007261;
     outline: none;
 }
 .rooms-list label {
@@ -255,7 +255,7 @@ dialog headerbar {
     padding: 5px 8px;
 }
 .boxroom_header-in label {
-    color: #fff;
+    color: #007261;
 }
 .boxroom_header-in button:nth-child(4) {
     margin-left: 2px;
@@ -264,7 +264,7 @@ dialog headerbar {
     margin-left: 2px;
 }
 .wnd_main list {
-    color: #fff;
+    color: #007261;
 }
 .wnd_main srcollbar.hovering slider {
     background-color: rgba(58,70, 107,.8);
@@ -397,7 +397,7 @@ dialog headerbar {
 .stack_messages list row:selected .box_msg_info > label,
 .stack_messages list row:selected .box_own_msg_info > label {
     background-color: #007261;
-    color: #fff;
+    color: #007261;
 }
 .stack_messages list row:selected .box_own_sticker_info > image {
     border-right: 8px solid #007261;
@@ -432,7 +432,7 @@ dialog headerbar {
 }
 .stack_messages list row:selected .box_file_info .file-button label,
 .stack_messages list row:selected .box_own_file_info .file-button label {
-    color: #fff;
+    color: #007261;
 }
 
 .stack_messages list row label {
@@ -520,7 +520,7 @@ dialog headerbar {
     box-shadow: none;
     border: 1px solid #c0dfc2;
     border-radius: 5px;
-    color: #fff;
+    color: #007261;
     font-weight: 300;
 }
 .box-room-settings textview, .box-room-info textview {
@@ -569,7 +569,7 @@ overshoot.top {
     background-image: none;
 }
 .stickers_box label {
-    color: #fff;
+    color: #007261;
 }
 .box_stickers_header {
     padding: 11px 25px 10px 25px;
@@ -577,7 +577,7 @@ overshoot.top {
     background-color: #1c4a47;
 }
 .box_stickers_header label {
-    color: #fff;
+    color: #007261;
     font-size: 14px;
 }
 .box_stickers_header button {
@@ -604,7 +604,7 @@ overshoot.top {
 /* Dialog window room info styles */
 
 .box-room-info {
-    color: #fff;
+    color: #007261;
     margin: 22px 45px 45px 45px;
 }
 .box-room-info box label:first-child {
@@ -649,7 +649,7 @@ overshoot.top {
 /* Dialog window profile settings styles */
 
 #dialog_profile_prefs {
-    color: #fff;
+    color: #007261;
     margin: 35px 45px 0 45px;
 }
 #dialog_profile_prefs > box:first-child label:first-child {
@@ -680,7 +680,7 @@ overshoot.top {
 
 .dialog_confirmation .dialog-vbox {
     margin-top: 40px;
-    color: #fff;
+    color: #007261;
 }
 .dialog_confirmation .dialog-vbox > box:first-child label:first-child {
     font-size: 16px;
@@ -742,7 +742,7 @@ overshoot.top {
     padding: 25px 30px 30px;
 }
 .box_user_info > box {
-    color: #fff;
+    color: #007261;
 }
 .box_user_info > box label:first-child {
     font-size:14px;
