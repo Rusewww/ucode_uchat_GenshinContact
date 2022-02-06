@@ -507,7 +507,7 @@ dialog headerbar {
 }
 .box-room-settings entry {
     border: 1px solid #e7f5dc;
-    background-color: #e7f5dc;
+    background-color: #1b2e28;
     border-radius: 5px;
     padding: 0 8px;
     font-weight: 300;
@@ -534,7 +534,7 @@ dialog headerbar {
 }
 .box-room-settings > box:first-child label {
     font-size: 14px;
-    color: #D8DCE8;
+    color: #1b2e28;
     margin-top: 10px;
     margin-bottom: 7px;
     font-weight: 500;
@@ -609,7 +609,7 @@ overshoot.top {
 }
 .box-room-info box label:first-child {
     font-size: 14px;
-    color: #D8DCE8;
+    color: #1b2e28;
     font-weight: 500;
 }
 .box-room-info > box:nth-child(2) label:last-child {
@@ -654,7 +654,7 @@ overshoot.top {
 }
 #dialog_profile_prefs > box:first-child label:first-child {
     font-size: 14px;
-    color: #D8DCE8;
+    color: #1b2e28;
     font-weight: 500;
 }
 #dialog_profile_prefs > box:first-child label:last-child  {
@@ -686,7 +686,7 @@ overshoot.top {
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 9px;
-    color: #D8DCE8;
+    color: #1b2e28;
 }
 .dialog_confirmation .dialog-vbox > box:first-child label:last-child {
     font-size: 18px;
