@@ -176,7 +176,7 @@ dialog headerbar {
     outline: none;
 }
 .rooms-list label {
-    background-color: #007261;
+    background-color: rgba(0, 114, 97,.7);
     padding: 25px 20px;
     border-color: transparent;
     border-radius: 8px;
