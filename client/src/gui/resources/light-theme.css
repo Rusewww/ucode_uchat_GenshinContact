@@ -140,7 +140,7 @@ headerbar {
 }
 .dialog_notebook tab:checked {
     box-shadow: none;
-    box-shadow: 0 -3px rgb(103,133,255) inset;
+    box-shadow: 0 -3px #94d6ba inset;
 }
 .dialog_notebook tab label {
     font-weight: 500;
