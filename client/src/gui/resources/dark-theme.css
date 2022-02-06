@@ -707,7 +707,7 @@ overshoot.top {
     margin-bottom: 7px;
 }
 .listbox_members row:hover {
-    background-color: #e7d5f9#e7d5f9;
+    background-color: #e7d5f9;
 }
 .listbox_members row:selected {
 	background-color: #6785FF;
