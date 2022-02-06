@@ -29,7 +29,7 @@ button, .input, entry, notebook, .dialog_auth .titlebar, button image  {
 .profile-settings-wnd, .wnd-room-info, .wnd-room-settings,
 .dialog_confirmation, .dialog_user_info {
     background: rgb(57,69,107);
-    background-image: linear-gradient(173deg, rgb(57, 69, 107) 0%, rgb(35,41,65) 100%);
+    background-image: url("electro.png");
 }
 .dialog_auth entry selection, .wnd_main entry selection,
 .dialog_auth textview selection, .wnd_main textview selection,
