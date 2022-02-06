@@ -518,7 +518,7 @@ dialog headerbar {
 #dialog_profile_prefs textview text, .dialog_user_info textview text {
     background-color: #e7f5dc;
     box-shadow: none;
-    border: 1px solid #48547E;
+    border: 1px solid #c0dfc2;
     border-radius: 5px;
     color: #fff;
     font-weight: 300;
@@ -545,7 +545,7 @@ dialog headerbar {
 .box-room-settings > box:first-child box:last-child scrolledwindow {
     border-radius: 5px;
     background-color: #e7f5dc;
-    border: 1px solid #48547E;
+    border: 1px solid #c0dfc2;
 }
 
 /* Overshoot deactivation */
@@ -637,7 +637,7 @@ overshoot.top {
 .box-room-info box:last-child scrolledwindow {
     border-radius: 5px;
     background-color: #e7f5dc;
-    border: 1px solid #48547E;
+    border: 1px solid #c0dfc2;
 }
 .box-room-info > label {
     font-size: 17px;
