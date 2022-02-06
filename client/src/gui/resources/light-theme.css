@@ -203,7 +203,6 @@ dialog headerbar {
     margin-right: 14px;
 }
 
-/* Class for room with new messages */
 .rooms-list row .has-messages {
     border-left: 3px solid transparent;
     border-right: 3px solid #28E1B2;
@@ -302,8 +301,6 @@ dialog headerbar {
     opacity: .7;
 }
 
-/* Messages area styles */
-
 .box_msg_send {
     margin: 0 25px 25px 25px;
     background-color: #e7f5dc;
@@ -342,8 +339,6 @@ dialog headerbar {
 .stack_messages list row:selected {
     background-color: transparent;
 }
-
-/* Message styling */
 
 .sender_login {
     margin-top: 10px;
@@ -418,8 +413,6 @@ dialog headerbar {
     color: #B8C2E5;
 }
 
-/* Box file info styles */
-
 .file-button > label {
     color: #B8C2E5;
 }
@@ -482,8 +475,6 @@ dialog headerbar {
     padding: 12px 30px;
 }
 
-/* Search entry styles */
-
 .wnd_main .search, .wnd-room-info .search {
     background-color: #e7f5dc;
     border-radius: 5px;
@@ -496,8 +487,6 @@ dialog headerbar {
 .wnd_main .search image, .wnd-room-info .search image {
     margin-right: 8px;
 }
-
-/* Dialog window room settings styles */
 
 .wnd-room-settings {
     padding: 30px;
@@ -548,16 +537,12 @@ dialog headerbar {
     border: 1px solid #c0dfc2;
 }
 
-/* Overshoot deactivation */
-
 overshoot.bottom {
     background-image: none;
 }
 overshoot.top {
     background-image: none;
 }
-
-/* Stickers area stiles */
 
 .btn_stickers {
     margin-right: 12px;
@@ -600,8 +585,6 @@ overshoot.top {
 .profile-settings-wnd headerbar button:hover {
     opacity: .7;
 }
-
-/* Dialog window room info styles */
 
 .box-room-info {
     color: #fff;
@@ -646,8 +629,6 @@ overshoot.top {
     font-size: 14px;
 }
 
-/* Dialog window profile settings styles */
-
 #dialog_profile_prefs {
     color: #fff;
     margin: 35px 45px 0 45px;
@@ -676,8 +657,6 @@ overshoot.top {
     font-weight: 300;
 }
 
-/* Dialog join to room styles */
-
 .dialog_confirmation .dialog-vbox {
     margin-top: 40px;
     color: #fff;
@@ -695,8 +674,6 @@ overshoot.top {
 .dialog_confirmation .dialog-vbox > box:first-child {
     margin-bottom: 9px;
 }
-
-/* Members list styles */
 
 .listbox_members row {
     margin: 7px 7px 0 7px;
@@ -732,8 +709,6 @@ overshoot.top {
     margin-bottom: 7px;
     padding: 0 8px;
 }
-
-/* User info styles */
 
 .dialog_user_info textview {
     background-color: transparent;
