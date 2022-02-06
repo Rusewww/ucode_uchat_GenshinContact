@@ -245,7 +245,7 @@ dialog headerbar {
 }
 .boxroom_header-in {
     border-bottom: 1px solid #e7f5dc;
-    background-color: #364165;
+    background-color: #1c4a47;
     padding: 0 25px;
     font-size: 17px;
 }
@@ -574,7 +574,7 @@ overshoot.top {
 .box_stickers_header {
     padding: 11px 25px 10px 25px;
     border-bottom: 1px solid #e7f5dc;
-    background-color: #364165;
+    background-color: #1c4a47;
 }
 .box_stickers_header label {
     color: #fff;

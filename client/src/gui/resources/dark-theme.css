@@ -35,7 +35,7 @@ button, .input, entry, notebook, .dialog_auth .titlebar, button image  {
 .dialog_auth textview selection, .wnd_main textview selection,
 .box-room-settings textview selection, .box-room-info textview selection,
 #dialog_profile_prefs textview selection, .dialog_user_info textview selection {
-	background-color: #6785FF;
+	background-color: #9b88f6;
 }
 box stack, entry, .dialog_notebook header {
     background-color: transparent;
@@ -91,7 +91,7 @@ button {
     border: 1px solid transparent;
 }
 .box-functional-buttons button:hover {
-    border: 1px solid #6785FF;
+    border: 1px solid #9b88f6;
 }
 button label {
     box-shadow: none;
@@ -396,16 +396,16 @@ dialog headerbar {
 }
 .stack_messages list row:selected .box_msg_info > label,
 .stack_messages list row:selected .box_own_msg_info > label {
-    background-color: #6785FF;
+    background-color: #9b88f6;
     color: #fff;
 }
 .stack_messages list row:selected .box_own_sticker_info > image {
-    border-right: 8px solid #6785FF;
+    border-right: 8px solid #9b88f6;
     border-radius: 5px;
     padding-right: 7px;
 }
 .stack_messages list row:selected .box_sticker_info > image {
-    border-left: 8px solid #6785FF;
+    border-left: 8px solid #9b88f6;
     border-radius: 5px;
     padding-left: 7px;
 }
@@ -428,7 +428,7 @@ dialog headerbar {
 }
 .stack_messages list row:selected .box_file_info .file-button,
 .stack_messages list row:selected .box_own_file_info .file-button {
-    background-color: #6785FF;
+    background-color: #9b88f6;
 }
 .stack_messages list row:selected .box_file_info .file-button label,
 .stack_messages list row:selected .box_own_file_info .file-button label {
@@ -442,7 +442,7 @@ dialog headerbar {
     background-color: transparent;
 }
 .box_msg_ctrl  {
-    background-color: #6785FF;
+    background-color: #9b88f6;
     padding: 7px 25px;
 }
 .box_msg_ctrl button {
@@ -452,7 +452,7 @@ dialog headerbar {
 	margin: 0 25px 10px 25px;
 }
 #box_edit_msg label:first-child {
-	color: #6785FF;
+	color: #9b88f6;
 	font-weight: 400;
 	font-size: 15px;
 }
