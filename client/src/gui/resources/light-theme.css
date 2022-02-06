@@ -3,7 +3,7 @@
 * {
     font-family: "Gill Sans", sans-serif;
     transition: all .07s ease-out;
-    outline-color: #000000;
+    outline-color: rgb(103, 133, 255);
     outline-style: double;
 }
 button {
