@@ -28,14 +28,14 @@ button, .input, entry, notebook, .dialog_auth .titlebar, button image  {
 .dialog_auth, .wnd_main, .dialog_addroom,
 .profile-settings-wnd, .wnd-room-info, .wnd-room-settings,
 .dialog_confirmation, .dialog_user_info {
-    background: #000000;
+    background: #ffffff;
     background-image: url("anemo.png");
 }
 .dialog_auth entry selection, .wnd_main entry selection,
 .dialog_auth textview selection, .wnd_main textview selection,
 .box-room-settings textview selection, .box-room-info textview selection,
 #dialog_profile_prefs textview selection, .dialog_user_info textview selection {
-    background-color: #6785FF;
+    background-color: #4b6154;
 }
 box stack, entry, .dialog_notebook header {
     background-color: transparent;
