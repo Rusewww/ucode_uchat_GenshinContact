@@ -763,5 +763,5 @@ overshoot.top {
 }
 .box_msg_ctrl > box:first-child {
     font-size: 14px;
-    color: #fff;
+    color: #000;
 }
