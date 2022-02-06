@@ -187,7 +187,7 @@ dialog headerbar {
     background-color: transparent;
 }
 .rooms-list row:hover label {
-    background-color: rgb(58,70, 107);
+    background-color: rgb(135, 71, 157);
     margin-left: 20px;
     margin-right: 20px;
 }
