@@ -193,8 +193,8 @@ dialog headerbar {
 }
 .rooms-list row:selected label {
 	background-color: rgb(99, 52, 115);
-    border-left: 3px solid rgb(83,102,187);
-    border-right: 3px solid rgb(83,102,187);
+    border-left: 3px solid #2a004a;
+    border-right: 3px solid #2a004a;
     margin-left: 18px;
     margin-right: 18px;
 }
