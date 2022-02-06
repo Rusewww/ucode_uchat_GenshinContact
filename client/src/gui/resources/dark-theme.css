@@ -53,7 +53,7 @@ box stack, entry, .dialog_notebook header {
 }
 
 .dialog_auth entry, .dialog_addroom entry {
-	background-color: #2a004a;
+	background-color: #87479d;
 	border-radius: 5px;
     padding: 1px 10px;
 }
@@ -224,7 +224,7 @@ dialog headerbar {
 	background: none;
     padding: 15px;
     border-radius: 100px;
-    background-color: #2a004a;
+    background-color: #87479d;
     margin: 20px 0 25px 0;
 }
 .add-room-button:hover {
@@ -251,7 +251,7 @@ dialog headerbar {
 }
 .boxroom_header-in button {
     background-image: none;
-    background-color: #2a004a;
+    background-color: #87479d;
     padding: 5px 8px;
 }
 .boxroom_header-in label {
@@ -289,7 +289,7 @@ dialog headerbar {
 	padding: 0 25px;
 }
 .box_titlebar button {
-    background-color: #2a004a;
+    background-color: #87479d;
     padding: 3px 8px;
     margin-top: 7px;
     margin-bottom: 7px;
@@ -485,7 +485,7 @@ dialog headerbar {
 /* Search entry styles */
 
 .wnd_main .search, .wnd-room-info .search {
-	background-color: #2a004a;
+	background-color: #87479d;
 	border-radius: 5px;
     padding: 2px 8px 1px 8px;
     font-weight: 300;
@@ -507,7 +507,7 @@ dialog headerbar {
 }
 .box-room-settings entry {
 	border: 1px solid #424E78;
-	background-color: #2a004a;
+	background-color: #87479d;
 	border-radius: 5px;
 	padding: 0 8px;
     font-weight: 300;
@@ -516,7 +516,7 @@ dialog headerbar {
 }
 .box-room-settings textview text, .box-room-info textview text,
 #dialog_profile_prefs textview text, .dialog_user_info textview text {
-    background-color: #2a004a;
+    background-color: #87479d;
     box-shadow: none;
     border: 1px solid #48547E;
     border-radius: 5px;
@@ -544,7 +544,7 @@ dialog headerbar {
 }
 .box-room-settings > box:first-child box:last-child scrolledwindow {
 	border-radius: 5px;
-	background-color: #2a004a;
+	background-color: #87479d;
 	border: 1px solid #48547E;
 }
 
@@ -636,7 +636,7 @@ overshoot.top {
 }
 .box-room-info box:last-child scrolledwindow {
 	border-radius: 5px;
-	background-color: #2a004a;
+	background-color: #87479d;
 	border: 1px solid #48547E;
 }
 .box-room-info > label {
@@ -755,7 +755,7 @@ overshoot.top {
 	margin-bottom: 5px;
 }
 .arrow-down-btn {
-	background: #2a004a;
+	background: #87479d;
 	border-radius: 10px;
 }
 .arrow-down-btn:hover {
