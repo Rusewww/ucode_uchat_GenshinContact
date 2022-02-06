@@ -28,7 +28,7 @@ button, .input, entry, notebook, .dialog_auth .titlebar, button image  {
 .dialog_auth, .wnd_main, .dialog_addroom,
 .profile-settings-wnd, .wnd-room-info, .wnd-room-settings,
 .dialog_confirmation, .dialog_user_info {
-    background: rgb(57,69,107);
+    background: #000000;;
     background-image: url("electro.png");
 }
 .dialog_auth entry selection, .wnd_main entry selection,
