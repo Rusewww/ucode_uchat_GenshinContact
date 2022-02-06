@@ -148,7 +148,7 @@ headerbar {
     color: rgba(255,255,255,.6);
 }
 .dialog_notebook tab:hover label {
-    color: rgba(255,255,255,.8);
+    color: rgba(32, 32, 32,.8);
 }
 .dialog_notebook tab:checked label {
     color: #fff;
@@ -156,7 +156,7 @@ headerbar {
 headerbar box label {
     font-size: 14px;
     font-weight: 400;
-    color: #403E3D;
+    color: #202020;
 }
 dialog headerbar {
     background: rgb(229,229,229);
@@ -317,7 +317,7 @@ dialog headerbar {
 }
 .box_msg_send textview text,  .box_msg_send textview {
     background-color: transparent;
-    color: #B8C2E5;
+    color: #1b2e28;
     font-weight: 300;
     font-size: 15px;
 }
@@ -358,7 +358,7 @@ dialog headerbar {
     margin-left: 7px;
     font-weight: 300;
     font-size: 14px;
-    color: #B8C2E5;
+    color: #1b2e28;
 }
 .stack_messages list .box_msg_info > label, .box_file_info .file-button {
     background-color: #e7f5dc;
@@ -376,7 +376,7 @@ dialog headerbar {
 .box_file_info > box:last-child > label {
     font-size: 13px;
     font-weight: 300;
-    color: #919CC0;
+    color: #1b2e28;
 }
 .stack_messages list .box_msg_info >  box ,
 .stack_messages list .box_sticker_info > box,
@@ -415,7 +415,7 @@ dialog headerbar {
 .stack_messages list .box_own_msg_info > box > box,
 .stack_messages list .box_own_sticker_info > box > box {
     font-size: 13px;
-    color: #B8C2E5;
+    color: #1b2e28;
 }
 
 /* Box file info styles */
@@ -457,7 +457,7 @@ dialog headerbar {
     font-size: 15px;
 }
 #box_edit_msg label:last-child {
-    color: #919CC0;
+    color: #1b2e28;
     font-weight: 300;
     font-size: 14px;
 }
@@ -475,7 +475,7 @@ dialog headerbar {
 }
 .label_search_result {
     background-color: #e7f5dc;
-    color: #919CC0;
+    color: #1b2e28;
     font-size: 14px;
 }
 #dialog_profile_prefs .dialog-action-area button {
