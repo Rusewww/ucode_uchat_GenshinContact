@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 void mx_msgcreate_label_login(GtkWidget *box_main, t_gmsg *gmsg) {
     GtkWidget *label_login = gtk_label_new(gmsg->login);

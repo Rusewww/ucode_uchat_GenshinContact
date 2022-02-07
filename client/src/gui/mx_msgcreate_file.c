@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 static GtkWidget *create_image_btn(gchar *filename) {
     GtkWidget *btn = NULL;

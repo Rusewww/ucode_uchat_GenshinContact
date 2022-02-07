@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 static gboolean set_placeholder(GtkWidget *textview, GdkEvent *event,
                                    t_chat *chat) {

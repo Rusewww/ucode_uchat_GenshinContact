@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 t_signal_data *mx_create_sigdata(t_chat *chat, t_groom *groom,
                                  GtkListBoxRow *row_msg) {

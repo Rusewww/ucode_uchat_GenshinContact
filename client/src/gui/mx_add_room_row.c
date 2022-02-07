@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 gint mx_room_sort(GtkListBoxRow *row1, GtkListBoxRow *row2) {
     t_groom *f_room = g_object_get_data(G_OBJECT(row1), "groom");

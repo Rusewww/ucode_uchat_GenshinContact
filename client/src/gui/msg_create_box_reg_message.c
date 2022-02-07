@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 GtkWidget *mx_msgcreate_eventbox() {
     GtkWidget *new_box = gtk_event_box_new();

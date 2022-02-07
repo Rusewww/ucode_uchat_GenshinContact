@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 void mx_reset_select_count(t_groom *groom) {
     groom->select_own = 0;

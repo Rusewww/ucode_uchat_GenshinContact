@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 static void add_sigdata(GtkWidget *row, GtkWidget *event, t_chat *chat) {
     t_signal_data *data = NULL;

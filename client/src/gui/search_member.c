@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 static gboolean filter_member_login(GtkListBoxRow *row, gchar *search_login) {
     GList *gl_row = gtk_container_get_children(GTK_CONTAINER(row));

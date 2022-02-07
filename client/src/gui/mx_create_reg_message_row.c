@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 GtkWidget *mx_create_reg_message_row(t_gmsg *gmsg,
                                      gboolean is_own, t_chat *chat) {

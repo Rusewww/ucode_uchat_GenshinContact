@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 void mx_msg_create_own_content(GtkWidget *info_box, t_gmsg *gmsg, t_chat *chat) {
     if (gmsg->type == DB_TEXT_MSG) {

@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 void mx_hide_msg_editing(GtkButton *btn, GtkBuilder *builder) {
     GObject *box_editing = gtk_builder_get_object(builder, "box_editing_msg");

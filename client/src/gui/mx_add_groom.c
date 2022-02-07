@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 void mx_add_groom(t_groom *room, t_chat *chat) {
     mx_add_messages_box(room, chat);

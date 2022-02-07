@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 void mx_switch_room_header(GtkBuilder *builder, gint page_index) {
     GObject *stack = gtk_builder_get_object(builder, "stack_room_header");

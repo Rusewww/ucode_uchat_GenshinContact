@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 t_groom *mx_init_groom(void) {
     t_groom *room = mx_malloc(sizeof(t_groom));

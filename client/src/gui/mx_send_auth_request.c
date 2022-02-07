@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 void mx_send_auth_request(char *login, char *password,
                           t_chat *chat, t_request_type request_type) {

@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 void mx_add_message_to_found(t_gmsg *gmsg, t_chat *chat) {
     GtkWidget *row = gtk_list_box_row_new();

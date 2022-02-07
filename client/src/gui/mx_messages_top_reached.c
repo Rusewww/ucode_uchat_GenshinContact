@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 static void delete_older_message(t_groom *groom, GtkBuilder *builder) {
     GtkListBoxRow *row = gtk_list_box_get_row_at_index(groom->box_messages, 0);

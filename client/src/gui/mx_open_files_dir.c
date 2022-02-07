@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 void mx_open_file_folder(gchar *filename) {
     gchar *path = g_path_get_dirname(filename);

@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 void mx_logout_client(t_chat *chat) {
     GtkListBox *box = GTK_LIST_BOX(gtk_builder_get_object(chat->builder,

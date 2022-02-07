@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 static gboolean filter_room_name(GtkListBoxRow *row,
                                  t_filter_data *data) {

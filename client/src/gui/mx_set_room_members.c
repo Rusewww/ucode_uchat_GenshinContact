@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 static void reset_room_members(GObject *listbox_sett, GObject *listbox_info,
                                GtkListBoxRow *sett, GtkListBoxRow *info) {

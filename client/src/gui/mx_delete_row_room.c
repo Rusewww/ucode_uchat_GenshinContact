@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 void mx_unselect_room(t_groom *groom, GtkBuilder *builder) {
     mx_set_default_room_sett(builder);

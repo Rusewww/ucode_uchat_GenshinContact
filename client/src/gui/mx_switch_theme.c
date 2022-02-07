@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 static void set_light_theme(t_chat *chat) {
     g_file_set_contents(MX_THEME_FILE, "light", -1, NULL);

@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 static void create_viewport(GtkWidget *scroll, GtkWidget *box) {
     GtkWidget *view = gtk_viewport_new(NULL, NULL);

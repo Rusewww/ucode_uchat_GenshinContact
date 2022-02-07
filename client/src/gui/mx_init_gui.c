@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 void mx_init_gui(t_chat *chat) {
     mx_connect_authorization(chat);
