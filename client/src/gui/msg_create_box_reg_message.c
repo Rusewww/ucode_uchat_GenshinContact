@@ -33,5 +33,5 @@ void mx_msgcreate_box_info(GtkWidget *main_box, t_gmsg *gmsg, gboolean is_own, t
         gtk_box_pack_start(GTK_BOX(box_info), box_status, FALSE, TRUE, 0);
     }
     gtk_widget_set_valign(box_status, GTK_ALIGN_END);
-    mx_msgcreate_label_time(box_status, gmsg, is_own);
+    mx_msg_create_l_time(box_status, gmsg, is_own);
 }
