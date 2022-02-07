@@ -360,8 +360,7 @@ GtkWidget *mx_create_reg_message_row(t_gmsg *gmsg,
                                      gboolean is_own, t_chat *chat);
 GtkWidget *mx_msgcreate_eventbox();
 GtkWidget *mx_msgcreate_box_main(GtkWidget *eventbox, gboolean is_own);
-void mx_msgcreate_box_info(GtkWidget *box_main, t_gmsg *gmsg,
-                           gboolean is_own, t_chat *chat);
+void mx_msgcreate_box_info(GtkWidget *main_box, t_gmsg *gmsg, gboolean is_own, t_chat *chat);
 void mx_msgcreate_label_login(GtkWidget *box_main, t_gmsg *gmsg);
 void mx_msgcreate_label_text(GtkWidget *box_info,
                              t_gmsg *gmsg, gboolean is_own);
