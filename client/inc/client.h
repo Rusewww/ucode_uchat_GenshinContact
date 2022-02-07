@@ -427,8 +427,7 @@ t_gmsg *mx_get_gmsg_by_id(guint64 msg_id, guint64 room_id,
 void mx_unselect_room(t_groom *groom, GtkBuilder *builder);
 void mx_entry_set_icon_by_path(GtkEntry *entry, gchar *path,
                                GtkEntryIconPosition icon_pos);
-t_signal_data *mx_create_sigdata(t_chat *chat, t_groom *groom,
-                                 GtkListBoxRow *row_msg);
+t_signal_data *mx_create_sig_data(t_chat *chat, t_groom *groom, GtkListBoxRow *row_msg);
 void mx_free_sigdata(t_signal_data *data);
 char *mx_msgpage_name(gint id);
 gboolean mx_widget_is_visible(gchar *widget_name, GtkBuilder *builder);

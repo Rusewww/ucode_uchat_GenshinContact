@@ -51,7 +51,7 @@ void mx_add_room_row(t_groom *room, t_chat *chat, gchar *listbox_name) {
     gtk_widget_set_can_focus(row, FALSE);
     fill_room(room, box, row, label);
     event_containing(listbox_name, event, label, row);
-    data = mx_create_sigdata(chat, room, NULL);
+    data = mx_create_sig_data(chat, room, NULL);
     g_object_set_data_full(G_OBJECT(row), "groom", room,
                            (GDestroyNotify)mx_delete_groom);
     g_object_set_data_full(G_OBJECT(event), "sigdata", data,
