@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 void mx_err_auth_data_handler(GtkBuilder *builder) {
     GObject *label = gtk_builder_get_object(builder, "label_auth_error_login");
