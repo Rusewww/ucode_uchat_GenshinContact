@@ -10,7 +10,7 @@
 #include "sqlite3.h"
 #include "cJSON.h"
 
-#define MX_LOG_FILE "info.log"
+#define MX_LOG_FILE "info.txt"
 #define MX_HASH_REGEX "^[A-Fa-f0-9]{64}$"
 #define MX_LOGIN_REGEX "^[a-z0-9_-]{0,22}$"
 

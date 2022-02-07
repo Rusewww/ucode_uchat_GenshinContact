@@ -1,6 +1,9 @@
 .idea
-./obj
+obj
 uchat
+uchat_server
+info.log
+
 
 
 # Prerequisites
