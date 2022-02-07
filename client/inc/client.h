@@ -364,9 +364,8 @@ void mx_msgcreate_box_info(GtkWidget *main_box, t_gmsg *gmsg, gboolean is_own, t
 void mx_msg_create_l_login(GtkWidget *box_main, t_gmsg *gmsg);
 void mx_msg_create_l_text(GtkWidget *box_info, t_gmsg *gmsg, gboolean is_own);
 void mx_msg_create_img_sticker(GtkWidget *box_info, t_gmsg *gmsg, gboolean is_own);
-void mx_msgcreate_file(GtkWidget *box_info, t_gmsg *gmsg, gboolean is_own, t_chat *chat);
+void mx_msg_create_file(GtkWidget *box_info, t_gmsg *gmsg, gboolean is_own, t_chat *chat);
 GtkWidget *mx_create_message_row(t_chat *chat, t_gmsg *gmsg);
-void mx_msgcreate_box_energy(GtkWidget *box_status, t_gmsg *gmsg);
 void mx_msg_create_l_time(GtkWidget *box_info,
                              t_gmsg *gmsg, gboolean is_own);
 void mx_search_delim_set_visibility(GtkBuilder *builder, gboolean is_visible);

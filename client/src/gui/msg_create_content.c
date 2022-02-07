@@ -9,7 +9,7 @@ void mx_msg_create_own_content(GtkWidget *info_box, t_gmsg *gmsg, t_chat *chat) 
         mx_msg_create_img_sticker(info_box, gmsg, TRUE);
     } else {
         mx_widget_set_class(info_box, "box_own_file_info");
-        mx_msgcreate_file(info_box, gmsg, TRUE, chat);
+        mx_msg_create_file(info_box, gmsg, TRUE, chat);
     }
 }
 
@@ -22,7 +22,7 @@ void mx_msg_create_content(GtkWidget *main_box, GtkWidget *box_info, t_gmsg *gms
         mx_msg_create_img_sticker(box_info, gmsg, FALSE);
     } else {
         mx_widget_set_class(box_info, "box_file_info");
-        mx_msgcreate_file(box_info, gmsg, FALSE, chat);
+        mx_msg_create_file(box_info, gmsg, FALSE, chat);
     }
     mx_msg_create_l_login(main_box, gmsg);
 }
