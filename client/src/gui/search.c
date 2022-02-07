@@ -40,7 +40,6 @@ void mx_clear_global_search(GtkBuilder *builder) {
 gboolean mx_stop_search_room(gpointer *entry, gpointer *data, GtkBuilder *builder) {
     GObject *listbox = gtk_builder_get_object(builder, "listbox_rooms");
     GObject *sentry = gtk_builder_get_object(builder, "sentry_rooms");
-
     if (!mx_get_selected_groom(builder, MX_GLOBAL_ROOMS)) {
         mx_search_delim_set_visibility(builder, FALSE);
         gtk_entry_set_text(GTK_ENTRY(sentry), "");
@@ -49,7 +48,6 @@ gboolean mx_stop_search_room(gpointer *entry, gpointer *data, GtkBuilder *builde
         mx_widget_set_visibility_by_name(builder, "label_search_nothing_local", FALSE);
         mx_clear_global_search(builder);
     }
-
     (void) entry;
     (void) data;
     return FALSE;
@@ -58,9 +56,7 @@ gboolean mx_stop_search_room(gpointer *entry, gpointer *data, GtkBuilder *builde
 void mx_add_message_to_found(t_gmsg *gmsg, t_chat *chat) {
     GtkWidget *row = gtk_list_box_row_new();
     GtkWidget *event = mx_create_message_row(chat, gmsg);
-    GObject *box = gtk_builder_get_object(chat->builder,
-                                          "listbox_found_msgs");
-
+    GObject *box = gtk_builder_get_object(chat->builder, "listbox_found_msgs");
     gtk_widget_set_can_focus(row, FALSE);
     gmsg->row_msg = GTK_LIST_BOX_ROW(row);
     g_object_ref(row);
@@ -73,8 +69,7 @@ void mx_clear_found_msgs(GtkBuilder *builder) {
     GObject *box = (gtk_builder_get_object(builder, "listbox_found_msgs"));
     GtkListBoxRow *row = gtk_list_box_get_row_at_index(GTK_LIST_BOX(box), 0);
 
-    mx_widget_set_visibility_by_name(builder,
-                                     "label_search_nothing_msgs", FALSE);
+    mx_widget_set_visibility_by_name(builder, "label_search_nothing_msgs", FALSE);
     while (row) {
         gtk_widget_destroy(GTK_WIDGET(row));
         row = gtk_list_box_get_row_at_index(GTK_LIST_BOX(box), 0);
@@ -84,14 +79,12 @@ void mx_clear_found_msgs(GtkBuilder *builder) {
     mx_widget_set_visibility_by_name(builder, "label_found_messages", FALSE);
 }
 
-gboolean mx_stop_search_message(gpointer *entry,
-                                gpointer *data, GtkBuilder *builder) {
+gboolean mx_stop_search_message(gpointer *entry, gpointer *data, GtkBuilder *builder) {
     GObject *sentry = gtk_builder_get_object(builder, "sentry_messages");
-
     gtk_entry_set_text(GTK_ENTRY(sentry), "");
     mx_clear_found_msgs(builder);
-    (void)entry;
-    (void)data;
+    (void) entry;
+    (void) data;
     return FALSE;
 }
 

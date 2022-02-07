@@ -3,7 +3,9 @@ obj
 uchat
 uchat_server
 info.log
-
+client/uchat
+client/uchat_wd/info.log
+client/uchat_wd/info.txt
 
 
 # Prerequisites
