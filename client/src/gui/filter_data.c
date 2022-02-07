@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 t_filter_data *mx_create_filter_data(gchar *search_name) {
     t_filter_data *filter_data = g_malloc(sizeof(t_filter_data));

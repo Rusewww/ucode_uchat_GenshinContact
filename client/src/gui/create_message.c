@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 static gboolean get_data(cJSON *msg, cJSON **data, char *field, cJSON_bool(check_valid)(const cJSON *const)) {
     *data = cJSON_GetObjectItemCaseSensitive(msg, field);

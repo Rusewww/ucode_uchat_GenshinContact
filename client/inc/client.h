@@ -274,7 +274,7 @@ gboolean mx_ban_member_handler(t_dtp *data, t_chat *chat);
 gboolean mx_search_msgs_handler(t_dtp *data, t_chat *chat);
 gboolean mx_del_hist_handler(t_dtp *data, t_chat *chat);
 gboolean mx_old_msgs_hanlder(t_dtp *data, t_chat *chat);
-gboolean mx_upd_room_power_handler(t_dtp *data, t_chat *chat);
+gboolean mx_upd_handler(t_dtp *data, t_chat *chat);
 void mx_download_file(guint64 room_id, guint64 msg_id, t_chat *chat);
 void mx_file_read(gsize size, gchar *name, GInputStream *in);
 
@@ -345,7 +345,6 @@ void mx_set_default_room_sett(GtkBuilder *builder);
 void mx_set_current_room_sett(GtkBuilder *builder);
 void mx_gupd_room_desc(guint64 id, char *desc, GtkBuilder *builder);
 void mx_gupd_room_name(guint64 id, char *name, GtkBuilder *builder);
-void mx_gupd_room_power(guint64 id, gdouble value, GtkBuilder *builder);
 void mx_gdel_room(guint64 id, GtkBuilder *builder);
 void mx_gdel_msg(guint64 msg_id, guint64 room_id, GtkBuilder *builder);
 void mx_gupd_msg_text(guint64 msg_id, guint64 room_id,

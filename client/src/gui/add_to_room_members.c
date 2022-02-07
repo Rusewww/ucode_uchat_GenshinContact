@@ -1,4 +1,4 @@
-#include "client.h"
+#include "../../inc/client.h"
 
 static void show_ban_member(GObject *btn, GtkBuilder *builder) {
     GObject *dialog = gtk_builder_get_object(builder, "dialog_ban_member");

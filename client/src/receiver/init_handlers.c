@@ -16,7 +16,7 @@ void mx_init_room_handlers(t_chat *chat) {
     chat->request_handler[RQ_JOIN_ROOM] = mx_join_room_handler;
     chat->request_handler[RQ_UPD_ROOM_NAME] = mx_upd_room_name_handler;
     chat->request_handler[RQ_UPD_ROOM_DESC] = mx_upd_room_desc_handler;
-    chat->request_handler[RQ_UPD_ROOM_POWR] = mx_upd_room_power_handler;
+    chat->request_handler[RQ_UPD_ROOM_POWR] = mx_upd_handler;
     chat->request_handler[RQ_SEARCH_CH] = mx_search_rooms_handler;
     chat->request_handler[RQ_GET_MEMBERS] = mx_get_members_handler;
     chat->request_handler[RQ_BAN_MEMBER] = mx_ban_member_handler;
