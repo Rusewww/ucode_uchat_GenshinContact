@@ -482,43 +482,43 @@
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_13</property>
   </object>
   <object class="GtkImage" id="img_sticker_14">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_15</property>
   </object>
   <object class="GtkImage" id="img_sticker_15">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_17</property>
   </object>
   <object class="GtkImage" id="img_sticker_16">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_19</property>
   </object>
   <object class="GtkImage" id="img_sticker_17">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_14</property>
   </object>
   <object class="GtkImage" id="img_sticker_18">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_16</property>
   </object>
   <object class="GtkImage" id="img_sticker_19">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_18</property>
   </object>
   <object class="GtkImage" id="img_sticker_2">
     <property name="visible">True</property>
@@ -530,61 +530,61 @@
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_20</property>
   </object>
   <object class="GtkImage" id="img_sticker_21">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_21</property>
   </object>
   <object class="GtkImage" id="img_sticker_22">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_22</property>
   </object>
   <object class="GtkImage" id="img_sticker_23">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_23</property>
   </object>
   <object class="GtkImage" id="img_sticker_24">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_24</property>
   </object>
   <object class="GtkImage" id="img_sticker_25">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_25</property>
   </object>
   <object class="GtkImage" id="img_sticker_26">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_26</property>
   </object>
   <object class="GtkImage" id="img_sticker_27">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_27</property>
   </object>
   <object class="GtkImage" id="img_sticker_28">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_28</property>
   </object>
   <object class="GtkImage" id="img_sticker_29">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_29</property>
   </object>
   <object class="GtkImage" id="img_sticker_3">
     <property name="visible">True</property>
@@ -596,7 +596,7 @@
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">90</property>
-    <property name="icon-name">sticker_12</property>
+    <property name="icon-name">sticker_30</property>
   </object>
   <object class="GtkImage" id="img_sticker_4">
     <property name="visible">True</property>
