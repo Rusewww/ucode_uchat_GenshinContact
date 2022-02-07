@@ -19,10 +19,10 @@
 /*
  * Error messages for authorization
  */
-#define MX_ERRMSG_INVALID_LOGIN "Login can be minimum 3 symbol of a-z, 0-9, -"
-#define MX_ERRMSG_NODATA "Please, enter login and password"
+#define MX_ERRMSG_INVALID_LOGIN "Password can be minimum 3 symbol of a-z, 0-9, -"
+#define MX_ERRMSG_NODATA "Enter login and password"
 #define MX_ERRMSG_DIFPASS "Passwords must match"
-#define MX_ERRMSG_INCCRDATA "The login or password inccorect"
+#define MX_ERRMSG_INCCRDATA "The login or password are inccorect"
 #define MX_ERRMSG_USEREXIST "User already exist"
 #define MX_ERRMSG_CLIEXIST "User already authorized"
 
