@@ -1,11 +1,16 @@
 .idea
+./.idea
+idea
 obj
 uchat
 uchat_server
 info.log
+info.txt
+
 client/uchat
 client/uchat_wd/info.log
 client/uchat_wd/info.txt
+server/uchat_server
 
 
 # Prerequisites
