@@ -1,4 +1,4 @@
-@define-color placeholder_text_color #919CC0;
+@define-color placeholder_text_color #000000;
 
 * {
     font-family: "Gill Sans", sans-serif;
@@ -64,7 +64,7 @@ button {
     background-image: none;
 }
 .dialog-action-area button {
-    background-color: #fff;
+    background-color: #000000;
     box-shadow: none;
     padding: 12px 40px;
     border-radius: 2px;
@@ -289,13 +289,11 @@ dialog headerbar {
 }
 .box_titlebar button {
     background-color: #e7f5dc;
-    padding: 3px 8px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-.box_titlebar button:nth-child(3) {
-    margin-right: 7px;
-}
+
 .box_titlebar button:hover, .boxroom_header-in button:hover,
 .btns-msg-box:hover, .button_send_message:hover {
     opacity: .7;

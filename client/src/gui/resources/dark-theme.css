@@ -289,13 +289,11 @@ dialog headerbar {
 }
 .box_titlebar button {
     background-color: #660066;
-    padding: 3px 8px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-.box_titlebar button:nth-child(3) {
-	margin-right: 7px;
-}
+
 .box_titlebar button:hover, .boxroom_header-in button:hover,
 .btns-msg-box:hover, .button_send_message:hover {
     opacity: .7;

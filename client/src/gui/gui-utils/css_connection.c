@@ -18,7 +18,7 @@ void mx_css_connect(char *theme, t_chat *chat) {
     gtk_css_provider_load_from_path(chat->css_prov, theme, &err);
     if (err) {
         mx_logger(MX_LOG_FILE, G_LOG_LEVEL_ERROR,
-                  "Dark or light theme CSS is missing!");
+                  "No dark or light theme CSS");
     }
     gtk_style_context_add_provider_for_screen(
         gdk_screen_get_default(),
