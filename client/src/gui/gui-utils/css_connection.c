@@ -11,7 +11,7 @@ void mx_css_connect(char *theme, t_chat *chat) {
     }
     gtk_css_provider_load_from_path(chat->css_prov, theme, &err);
     if (err) {
-        mx_logger(MX_LOG_FILE, G_LOG_LEVEL_ERROR, "No dark or light theme CSS");
+        mx_logger(MX_LOG_FILE, G_LOG_LEVEL_ERROR, "No CSS themes");
     }
     gtk_style_context_add_provider_for_screen(gdk_screen_get_default(), GTK_STYLE_PROVIDER(chat->css_prov),
                                               GTK_STYLE_PROVIDER_PRIORITY_USER);
@@ -26,14 +26,14 @@ void change_theme_icon(t_chat *chat, gchar *icon_name) {
 void mx_css_connect_from_file(t_chat *chat) {
     gchar *current_theme = NULL;
     if (g_file_get_contents(MX_THEME_FILE, &current_theme, NULL, NULL)
-        && strcmp("light", current_theme) == 0) {
-        g_file_set_contents(MX_THEME_FILE, "light", -1, NULL);
-        mx_css_connect(MX_LIGHT_THEME, chat);
-        change_theme_icon(chat, "dark-theme");
+        && strcmp("anemo", current_theme) == 0) {
+        g_file_set_contents(MX_THEME_FILE, "anemo", -1, NULL);
+        mx_css_connect(MX_ANEMO_THEME, chat);
+        change_theme_icon(chat, "electro-theme");
     } else {
         g_file_set_contents(MX_THEME_FILE, "dark", -1, NULL);
-        mx_css_connect(MX_DARK_THEME, chat);
-        change_theme_icon(chat, "light-theme");
+        mx_css_connect(MX_ELECTRO_THEME, chat);
+        change_theme_icon(chat, "anemo-theme");
     }
     if (current_theme) {
         g_free(current_theme);
