@@ -391,10 +391,10 @@ void mx_gupd_clear_history(GtkBuilder *builder, guint64 room_id);
 void mx_search_members(GtkBuilder *builder, gchar *search_login);
 gboolean mx_stop_search_members(gpointer *entry,
                                 gpointer *data, GtkBuilder *builder);
-void mx_msgcreate_own_content(GtkWidget *box_info,
+void mx_msg_create_own_content(GtkWidget *box_info,
                               t_gmsg *gmsg, t_chat *chat);
 
-void mx_msgcreate_content(GtkWidget *box_main, GtkWidget *box_info,
+void mx_msg_create_content(GtkWidget *box_main, GtkWidget *box_info,
                           t_gmsg *gmsg, t_chat *chat);
 t_groom *mx_init_groom(void);
 void mx_add_messages_box(t_groom *room, t_chat *chat);

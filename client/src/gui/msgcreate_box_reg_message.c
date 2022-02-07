@@ -20,9 +20,9 @@ GtkWidget *mx_msgcreate_box_main(GtkWidget *eventbox, gboolean is_own) {
 void mx_msgcreate_box_info(GtkWidget *main_box, t_gmsg *gmsg, gboolean is_own, t_chat *chat) {
     GtkWidget *box_info = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
     if (is_own) {
-        mx_msgcreate_own_content(box_info, gmsg, chat);
+        mx_msg_create_own_content(box_info, gmsg, chat);
     } else {
-        mx_msgcreate_content(main_box, box_info, gmsg, chat);
+        mx_msg_create_content(main_box, box_info, gmsg, chat);
     }
     gtk_box_pack_end(GTK_BOX(main_box), box_info, FALSE, TRUE, 0);
     GtkWidget *box_status = gtk_box_new(GTK_ORIENTATION_VERTICAL, 0);
