@@ -1,45 +1,22 @@
 #include "server.h"
 
-/*
- * Function: mx_get_object_room
- * -------------------------------
- * creates an json object with room data
- * 
- * stmt: sqlite request
- * 
- * return: json object
- */
 cJSON *mx_get_object_room(sqlite3_stmt *stmt) {
     cJSON *room = cJSON_CreateObject();
 
     cJSON_AddNumberToObject(room, "id", sqlite3_column_int64(stmt, 0));
-    cJSON_AddStringToObject(room, "name", 
-                            MX_J_STR((char*)sqlite3_column_text(stmt, 1)));
-    cJSON_AddNumberToObject(room, "customer_id", 
-                            sqlite3_column_int64(stmt, 2));
+    cJSON_AddStringToObject(room, "name",  MX_J_STR((char*)sqlite3_column_text(stmt, 1)));
+    cJSON_AddNumberToObject(room, "customer_id",  sqlite3_column_int64(stmt, 2));
     cJSON_AddNumberToObject(room, "date", sqlite3_column_int64(stmt, 3));
-    cJSON_AddStringToObject(room, "desc", 
-                            MX_J_STR((char*)sqlite3_column_text(stmt, 4)));
+    cJSON_AddStringToObject(room, "desc",  MX_J_STR((char*)sqlite3_column_text(stmt, 4)));
     cJSON_AddNumberToObject(room, "type", sqlite3_column_int(stmt, 5));
     cJSON_AddNumberToObject(room, "power", sqlite3_column_int64(stmt, 6));
     return room;
 }
 
-/*
- * Function: mx_get_rooms
- * -------------------------------
- * returns all user rooms where he can be active
- * rooms that have been created so far are not taken into account
- * 
- * date: time in milisecond
- * user_id: user id
- * 
- * return: json object
- */
-cJSON *mx_get_rooms(sqlite3 *db, guint64 date, guint64 user_id) {
+cJSON *mx_get_rooms(sqlite3 *db, int date, int user_id) {
     cJSON *rooms = cJSON_CreateArray();
     sqlite3_stmt *stmt;
-    gint32 rv = 0;
+    int rv = 0;
 
     rv = sqlite3_prepare_v2(db, "select * from rooms where id in (select room"
                                 "_id from members where user_id = ?2 and "

@@ -1,13 +1,7 @@
 #include "api.h"
 #include <glib/gstdio.h>
 
-/*
- * Function: mx_change_working_dir
- * -------------------------------
- * Changes working directory to MX_SERVER
- */
 void mx_change_working_dir(void) {
-    #ifdef MX_SERVER
     if (g_chdir(MX_SERVER)) {
         mx_logger(MX_LOG_FILE, G_LOG_LEVEL_ERROR,
                   "No working directory mx_server");
@@ -16,21 +10,9 @@ void mx_change_working_dir(void) {
         mx_logger(MX_LOG_FILE, G_LOG_LEVEL_ERROR,
                   "No files directory mx_files_dir");
     }
-    #else
-    mx_logger(MX_LOG_FILE, G_LOG_LEVEL_ERROR, "No working directory");
-    #endif
     mx_daemon();
 }
 
-/*
- * Function: message_ready
- * -------------------------------
- * Callback for ready message from client
- * 
- * source_object: the object the asynchronous operation was started with
- * res: GAsyncResult
- * user_data: client that sent message
- */
 static void message_ready(GObject *source_object, GAsyncResult *res,
                           gpointer user_data) {
     GDataInputStream *in = G_DATA_INPUT_STREAM(source_object);
@@ -50,18 +32,6 @@ static void message_ready(GObject *source_object, GAsyncResult *res,
                                         message_ready, cli);
 }
 
-/*
- * Function: incoming
- * -------------------------------
- * Callback for incoming connection
- * 
- * service: socket_service
- * conn: connection between server and client
- * souce_object: the source_object passed to g_socket_listener_add_address()
- * user_data: information about another users, database, handlers
- * 
- * returns: stop other handlers from being called
- */
 static gboolean incoming(GSocketService *service, GSocketConnection *conn,
                          GObject *source_object, gpointer user_data) {
     GOutputStream *out_s = g_io_stream_get_output_stream(G_IO_STREAM(conn));

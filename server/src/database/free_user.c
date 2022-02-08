@@ -1,12 +1,5 @@
 #include "server.h"
 
-/*
- * Function: mx_free_user
- * -------------------------------
- * free struct t_db_user
- * 
- * user: structure t_db_user created with g_malloc
- */
 void mx_free_user(t_db_user **user) {
     if (!user || !*user)
         return;
@@ -24,13 +17,6 @@ void mx_free_user(t_db_user **user) {
     *user = NULL;
 }
 
-/*
- * Function: mx_free_room
- * -------------------------------
- * free struct t_db_room
- * 
- * room: structure t_db_room created with g_malloc
- */
 void mx_free_room(t_db_room **room) {
     if (!room || !*room)
         return;
@@ -42,13 +28,6 @@ void mx_free_room(t_db_room **room) {
     room = NULL;
 }
 
-/*
- * Function: mx_free_message
- * -------------------------------
- * free struct t_db_message
- * 
- * message: structure t_db_message created with g_malloc
- */
 void mx_free_message(t_db_message **message) {
     if (!message || !*message)
         return;

@@ -1,17 +1,6 @@
 #include "server.h"
 
-/*
- * Function: mx_json_is_valid
- * -------------------------------
- * checks whether the value matches its type
- * 
- * date: json object
- * str: the key value to be checked
- * check_valid: function to check
- * 
- * return json object if all ok else NULL
- */
-cJSON *mx_json_is_valid(cJSON *data, gchar *str, 
+cJSON *mx_json_is_valid(cJSON *data, char *str, 
                         cJSON_bool(check_valid)(const cJSON * const)) {
     cJSON *json = cJSON_GetObjectItemCaseSensitive(data, str);
 
@@ -20,15 +9,6 @@ cJSON *mx_json_is_valid(cJSON *data, gchar *str,
     return json;
 }
 
-/*
- * Function: mx_parse_json_user
- * -------------------------------
- * writes data from the json object to the structure t_db_user
- * 
- * user_j: json object
- * 
- * return: filled structure t_db_user if all is well otherwise NULL
- */
 t_db_user *mx_parse_json_user(cJSON *user_j) {
     t_db_user *user = malloc(sizeof(t_db_user));
     cJSON *json = NULL;
@@ -49,15 +29,6 @@ t_db_user *mx_parse_json_user(cJSON *user_j) {
     return user;
 }
 
-/*
- * Function: mx_parse_json_room
- * -------------------------------
- * writes data from the json object to the structure t_db_room
- * 
- * room_j: json object
- * 
- * return: filled structure t_db_room if all is well otherwise NULL
- */
 t_db_room *mx_parse_json_room(cJSON *room_j) {
     t_db_room *room = malloc(sizeof(t_db_room));
     cJSON *json = NULL;
@@ -75,15 +46,6 @@ t_db_room *mx_parse_json_room(cJSON *room_j) {
     return room;
 }
 
-/*
- * Function: mx_parse_json_message
- * -------------------------------
- * writes data from the json object to the structure t_db_message
- * 
- * message_j: json object
- * 
- * return: filled structure t_db_message if all is well otherwise NULL
- */
 t_db_message *mx_parse_message(cJSON *message_j) {
     t_db_message *message = malloc(sizeof(t_db_message));
     cJSON *json = NULL;

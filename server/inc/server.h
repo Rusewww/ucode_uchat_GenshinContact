@@ -6,53 +6,18 @@
 #include "sqlite3.h"
 #include "database.h"
 
-/*
- * Settings of server
- */
-#define MX_REQUEST_PER_SECOND 20
-#define MX_DELAY (1000000 / MX_REQUEST_PER_SECOND)
-#define MX_MAX_ROOMS 20
-#define MX_MAX_MSGS 500
+#define MX_DELAY (1000000 / 20)
 
-/* Client
- * ----------
- * conn: connection between client and server
- * out: GDataOutputStream object
- * in: GDataOutputStream object
- * in_s: GInputStream object
- * msg: last request from client
- * user: information about this user in database
- * info: information about all chat
- */
 typedef struct s_client t_client;
-
-/* Information
- * ----------
- * users: hash table that contains all connected user
- * database: sqlite3 database connection
- * request_handler: array of handler functions
- */
 typedef struct s_info t_info;
-
-/* Send helper
- * ----------
- * table: hash table that contains all members of room
- * data: request that need to send
- */
 typedef struct s_send_helper t_send_helper;
-
-/* File helper
- * ----------
- * table: hash table that contains all members of room
- * data: request that need to send
- */
 typedef struct s_file_helper t_file_helper;
 
 struct s_file_helper {
     t_client *client;
-    guint64 size;
-    guint64 room_id;
-    gchar *name;
+    int size;
+    int room_id;
+    char *name;
 };
 
 struct s_info {
@@ -92,7 +57,6 @@ void *mx_receiver(void *arg);
 void mx_send_to_all(t_dtp *data, t_client *client, guint64 room_id);
 void mx_daemon(void);
 //Authorization
-gboolean mx_valid_authorization_data(t_dtp *data, char **login,
-                                 char **pass, t_client *client);
+gboolean mx_valid_authorization_data(t_dtp *data, char **login, char **pass, t_client *client);
 void mx_correct_data(t_client *client);
 gdouble mx_get_used_power(guint64 chars);

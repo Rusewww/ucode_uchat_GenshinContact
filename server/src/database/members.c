@@ -1,19 +1,8 @@
 #include "server.h"
 
-/*
- * Function: mx_is_members
- * -------------------------------
- * checks for a record of the connection of this 
- * user with this room
- * 
- * user_id: user id
- * room_id: room id
- * 
- * return: TRUE or FALSE
- */
-gboolean mx_is_member(sqlite3 *db, guint64 user_id, guint64 room_id) {
+gboolean mx_is_member(sqlite3 *db, int user_id, int room_id) {
     sqlite3_stmt *stmt;
-    gint32 rv = SQLITE_OK;
+    int rv = SQLITE_OK;
 
     rv = sqlite3_prepare_v2(db, "select * from members where user_id = ?1 "
                                 "and room_id = ?2", -1, &stmt, 0);
@@ -29,19 +18,9 @@ gboolean mx_is_member(sqlite3 *db, guint64 user_id, guint64 room_id) {
     return FALSE;
 }
 
-/*
- * Function: mx_get_login_members
- * -------------------------------
- * finds and writes in GList logins of users which are in the given room
- * and are not forbidden
- * 
- * room_id: room id
- * 
- * return: GList with login users
- */
-GList *mx_get_login_members(sqlite3 *db, guint64 room_id) {
+GList *mx_get_login_members(sqlite3 *db, int room_id) {
     sqlite3_stmt *stmt;
-    gint rv = SQLITE_OK;
+    int rv = SQLITE_OK;
     GList *list = NULL;
 
     rv = sqlite3_prepare_v2(db, "select distinct login from users inner join "
@@ -59,10 +38,6 @@ GList *mx_get_login_members(sqlite3 *db, guint64 room_id) {
     return list;
 }
 
-/*
- * Function: 
- * 
- */
 static cJSON *get_object_user(sqlite3_stmt *stmt) {
     cJSON *user = cJSON_CreateObject();
 
@@ -73,21 +48,10 @@ static cJSON *get_object_user(sqlite3_stmt *stmt) {
     return user;
 }
 
-/*
- * Function: mx_get_json_members
- * -------------------------------
- * retrieves from the database and enters in json an 
- * array of all user data that is in the room
- * 
- * room_id: room id
- * 
- * return: json object
- */
-
-cJSON *mx_get_json_members(sqlite3 *db, guint64 room_id) {
+cJSON *mx_get_json_members(sqlite3 *db, int room_id) {
     cJSON *users = cJSON_CreateArray();
     sqlite3_stmt *stmt;
-    gint32 rv = 0;
+    int rv = 0;
 
     rv = sqlite3_prepare_v2(db, "select id, login, permission from users inner"
                                 " join members on users.id = members.user_id "
@@ -103,20 +67,10 @@ cJSON *mx_get_json_members(sqlite3 *db, guint64 room_id) {
     return users;
 }
 
-/*
- * Function: mx_get_type_member
- * -------------------------------
- * determines what rights this user has in this room
- * 
- * user_id: user id
- * room_id: room id
- * 
- * return permissiom user in this room
- */
-gint8 mx_get_type_member(sqlite3 *db, guint64 user_id, guint64 room_id) {
+int mx_get_type_member(sqlite3 *db, int user_id, int room_id) {
     sqlite3_stmt *stmt;
-    gint32 rv = 0;
-    gint8 perm_user = -1;
+    int rv = 0;
+    int perm_user = -1;
 
     rv = sqlite3_prepare_v2(db, "select permission from members where "
                                 "room_id = ?1 and user_id = ?2 ", 

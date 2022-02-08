@@ -1,21 +1,11 @@
 #include "server.h"
 
-/*
- * Function: mx_get_count_messages
- * -------------------------------
- * determines and returns the number of messages in a specific room
- * 
- * id: room id
- * 
- * return: count messages
- */
-
-guint64 mx_get_count_messages(sqlite3 *db, guint64 id) {
+int mx_get_count_messages(sqlite3 *db, int id) {
     sqlite3_stmt *stmt;
     sqlite3_str *str = sqlite3_str_new(db);
-    gchar *request = NULL;
-    gint32 rv = SQLITE_OK;
-    guint64 count = 0;
+    char *request = NULL;
+    int rv = SQLITE_OK;
+    int count = 0;
 
     sqlite3_str_appendf(str, "select count() from messages "
                              "where room_id = %lu", id);
@@ -29,18 +19,10 @@ guint64 mx_get_count_messages(sqlite3 *db, guint64 id) {
     return count;
 }
 
-/*
- * Function: 
- * -------------------------------
- * determines and returns the number of rooms
- * 
- * return: count rooms
- */
-
-guint64 mx_get_count_rooms(sqlite3 *db) {
+int mx_get_count_rooms(sqlite3 *db) {
     sqlite3_stmt *stmt;
-    gint32 rv = SQLITE_OK;
-    guint64 count;
+    int rv = SQLITE_OK;
+    int count;
 
     rv = sqlite3_prepare_v2(db, "select count() from rooms", -1, &stmt, NULL);
     mx_error_sqlite(rv, "get count rooms");
@@ -50,18 +32,10 @@ guint64 mx_get_count_rooms(sqlite3 *db) {
     return count;
 }
 
-/*
- * Function: 
- * -------------------------------
- * determines and returns the number of users
- * 
- * return: count users
- */
-
-guint64 mx_get_count_users(sqlite3 *db) {
+int mx_get_count_users(sqlite3 *db) {
     sqlite3_stmt *stmt;
-    gint32 rv = SQLITE_OK;
-    guint64 count;
+    int rv = SQLITE_OK;
+    int count;
 
     rv = sqlite3_prepare_v2(db, "select count() from users", -1, &stmt, NULL);
     mx_error_sqlite(rv, "get count users");
