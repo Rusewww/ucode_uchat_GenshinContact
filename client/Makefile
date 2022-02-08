@@ -17,8 +17,8 @@ UTILS_LIB = ../utils/libutils.a
 GTK_LIBS = -rdynamic `pkg-config --cflags --libs gtk+-3.0`
 GTK_INC = `pkg-config --cflags gtk+-3.0`
 
-SRCD = src src/gui src/gui/gui-utils src/receiver src/api src/gui/wrappers \
-src/sender src/api/up_down_load_file
+SRCD = src src/gui src/gui/gui-utils src/receiver src/lib src/gui/wrappers \
+src/sender src/lib/load_file
 INCD = inc
 SRCS = $(foreach dir, $(SRCD), $(wildcard $(dir)/*.c))
 OBJS = $(addprefix $(OBJD)/, $(notdir $(SRCS:%.c=%.o)))
