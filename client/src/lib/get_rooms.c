@@ -1,14 +1,5 @@
 #include "client.h"
 
-/*
- * Function: mx_get_room_request
- * -------------------------------
- * Creates get rooms request
- * 
- * date: date
- * 
- * returns: get rooms request
- */
 t_dtp *mx_get_rooms_request(guint64 date) {
     cJSON *json_result = cJSON_CreateObject();
 

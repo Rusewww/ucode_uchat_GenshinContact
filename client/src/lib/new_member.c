@@ -13,16 +13,6 @@ static gboolean add_member(char *login, guint64 user_id, guint64 room_id,
     return TRUE;
 }
 
-/*
- * Function: mx_new_member_handler
- * -------------------------------
- * Handles request from server
- * 
- * data: request from server
- * chat: information about chat
- * 
- * returns: success of handling
- */
 gboolean mx_new_member_handler(t_dtp *data, t_chat *chat) {
     cJSON *login = cJSON_GetObjectItemCaseSensitive(data->json, "login");
     cJSON *id = cJSON_GetObjectItemCaseSensitive(data->json, "user_id");

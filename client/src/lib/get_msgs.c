@@ -1,15 +1,5 @@
 #include "client.h"
 
-/*
- * Function: mx_get_new_msgs_request
- * -------------------------------
- * Creates get new messages request
- * 
- * date: date
- * room_id: room id
- * 
- * returns: get new message request
- */
 t_dtp *mx_get_new_msgs_request(guint64 date, guint64 room_id) {
     cJSON *json_result = cJSON_CreateObject();
 

@@ -1,14 +1,5 @@
 #include "client.h"
 
-/*
- * Function: mx_get_members_request
- * -------------------------------
- * Creates get members request
- * 
- * room_id: room id that contains members
- * 
- * returns: get members request
- */
 t_dtp *mx_get_members_request(guint64 room_id) {
     cJSON *json_result = cJSON_CreateObject();
 

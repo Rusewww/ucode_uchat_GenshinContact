@@ -1,15 +1,5 @@
 #include "client.h"
 
-/*
- * Function: mx_old_msgs_request
- * -------------------------------
- * Creates old messages request
- * 
- * date: date
- * room_id: room that contains messages
- * 
- * returns: old messages request
- */
 t_dtp *mx_old_msgs_request(guint64 date, guint64 room_id) {
     cJSON *json_result = cJSON_CreateObject();
 
@@ -39,16 +29,6 @@ static void insert_msg(cJSON *room, t_chat *chat, guint64 room_id) {
     cJSON_Delete(dup);
 }
 
-/*
- * Function: mx_old_msgs_handler
- * -------------------------------
- * Handles request from server
- * 
- * data: request from server
- * chat: information about chat
- * 
- * returns: success of handling
- */
 gboolean mx_old_msgs_hanlder(t_dtp *data, t_chat *chat) {
     cJSON *room_id = cJSON_GetObjectItemCaseSensitive(data->json, "room_id");
     cJSON *msgs = cJSON_GetObjectItemCaseSensitive(data->json, "messages");

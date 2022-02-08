@@ -1,14 +1,5 @@
 #include "client.h"
 
-/*
- * Function: mx_search_msgs_request
- * -------------------------------
- * Creates search messages request
- * 
- * msg: start of message
- * 
- * returns: search messages request
- */
 t_dtp *mx_search_msgs_request(char *msg, guint64 room_id) {
     cJSON *json_result = cJSON_CreateObject();
 
@@ -30,16 +21,6 @@ static gboolean handle_msg(cJSON *room, t_chat *chat) {
     return TRUE;
 }
 
-/*
- * Function: mx_search_msgs_handler
- * -------------------------------
- * Handles request from server
- * 
- * data: request from server
- * chat: information about chat
- * 
- * returns: success of handling
- */
 gboolean mx_search_msgs_handler(t_dtp *data, t_chat *chat) {
     cJSON *msgs = cJSON_GetObjectItemCaseSensitive(data->json, "msgs");
     cJSON *msg = NULL;

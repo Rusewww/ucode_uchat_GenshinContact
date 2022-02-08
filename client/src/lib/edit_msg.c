@@ -1,16 +1,5 @@
 #include "client.h"
 
-/*
- * Function: mx_edit_msg_request
- * -------------------------------
- * Creates edit message request
- * 
- * msg: edited message
- * room_id: room id that contains message
- * msg_id: message id that need to edit
- * 
- * returns: edit message request
- */
 t_dtp *mx_edit_msg_request(char *msg, guint64 room_id, guint64 msg_id) {
     cJSON *json_result = cJSON_CreateObject();
 
@@ -25,16 +14,6 @@ t_dtp *mx_edit_msg_request(char *msg, guint64 room_id, guint64 msg_id) {
     return mx_get_transport_data(json_result);
 }
 
-/*
- * Function: mx_edit_msg_handler
- * -------------------------------
- * Handles request from server
- * 
- * data: request from server
- * chat: information about chat
- * 
- * returns: success of handling
- */
 gboolean mx_edit_msg_handler(t_dtp *data, t_chat *chat) {
     cJSON *msg = cJSON_GetObjectItemCaseSensitive(data->json, "msg");
     cJSON *room_id = cJSON_GetObjectItemCaseSensitive(data->json, "room_id");

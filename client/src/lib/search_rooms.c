@@ -1,14 +1,5 @@
 #include "client.h"
 
-/*
- * Function: mx_search_rooms_request
- * -------------------------------
- * Creates search rooms request
- * 
- * room_name: start of room name
- * 
- * returns: search rooms request
- */
 t_dtp *mx_search_rooms_request(char *room_name) {
     cJSON *json_result = cJSON_CreateObject();
 
@@ -28,16 +19,6 @@ static gboolean handle_room(cJSON *room, t_chat *chat) {
     return TRUE;
 }
 
-/*
- * Function: mx_searc_rooms_handler
- * -------------------------------
- * Handles request from server
- * 
- * data: request from server
- * chat: information about chat
- * 
- * returns: success of handling
- */
 gboolean mx_search_rooms_handler(t_dtp *data, t_chat *chat) {
     cJSON *rooms = cJSON_GetObjectItemCaseSensitive(data->json, "rooms");
     cJSON *room = NULL;

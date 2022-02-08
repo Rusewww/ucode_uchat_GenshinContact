@@ -1,15 +1,5 @@
 #include "client.h"
 
-/*
- * Function: mx_error_handler
- * -------------------------------
- * Handles errors from server
- * 
- * data: request from server
- * chat: information about chat
- * 
- * returns: success of handling
- */
 gboolean mx_error_handler(t_dtp *data, t_chat *chat) {
     cJSON *error = cJSON_GetObjectItemCaseSensitive(data->json, "error_code");
 
