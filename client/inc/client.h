@@ -165,8 +165,7 @@ struct s_filter_data {
 gdouble mx_get_used_power(guint64 chars);
 gssize mx_send(GDataOutputStream *out, t_dtp *dtp);
 t_chat *mx_init_chat(GSocketConnection *connection, gint argc, char **argv);
-void mx_receiver(GObject *source_object, GAsyncResult *res,
-                 gpointer user_data);
+void mx_receiver(GObject *source_object, GAsyncResult *res, gpointer user_data);
 void mx_init_handlers(t_chat *chat);
 void mx_init_errors(t_chat *chat);
 void mx_get_data(t_chat *chat);
@@ -231,10 +230,8 @@ t_dtp *mx_sticker_request(char *sticker, guint64 room_id);
 t_dtp *mx_search_msgs_request(char *msg, guint64 room_id);
 t_dtp *mx_del_hist_request(guint64 room_id);
 t_dtp *mx_old_msgs_request(guint64 date, guint64 room_id);
-t_dtp *mx_upload_file_request(const char *name, goffset size,
-                              char *token, guint64 room_id);
-t_dtp *mx_download_file_request(guint64 room_id, guint64 msg_id,
-                                gchar *token);
+t_dtp *mx_upload_file_request(const char *name, goffset size, char *token, guint64 room_id);
+t_dtp *mx_download_file_request(guint64 room_id, guint64 msg_id, gchar *token);
 gboolean mx_handle_request(char *request, t_chat *chat);
 
 /*
