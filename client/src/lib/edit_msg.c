@@ -25,7 +25,7 @@ gboolean mx_edit_msg_handler(t_dtp *data, t_chat *chat) {
         || !cJSON_IsNumber(msg_id) || !cJSON_IsNumber(power)) {
         return FALSE;
     }
-    power_d = mx_get_used_power(power->valuedouble);
+    power_d = mx_get_u(power->valuedouble);
     mx_gupd_msg_text(msg_id->valuedouble, room_id->valuedouble,
                      msg->valuestring, chat->builder);
     return TRUE;

@@ -162,7 +162,7 @@ struct s_filter_data {
 /*
  * Utils
  */
-gdouble mx_get_used_power(guint64 chars);
+gdouble mx_get_u(guint64 chars);
 gssize mx_send(GDataOutputStream *out, t_dtp *dtp);
 t_chat *mx_init_chat(GSocketConnection *connection, gint argc, char **argv);
 void mx_receiver(GObject *source_object, GAsyncResult *res, gpointer user_data);
@@ -390,4 +390,4 @@ void mx_css_connect_from_file(t_chat *chat);
 void mx_connect_theme_switcher(t_chat *chat);
 void change_theme_icon(t_chat *chat, gchar *icon_name);
 gchar *mx_format_text(gchar *text);
-gdouble mx_get_used_power(guint64 chars);
+gdouble mx_get_u(guint64 chars);

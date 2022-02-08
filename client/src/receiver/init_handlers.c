@@ -22,13 +22,6 @@ void mx_init_room_handlers(t_chat *chat) {
     chat->request_handler[RQ_BAN_MEMBER] = mx_ban_member_handler;
 }
 
-/*
- * Function: mx_init_handlers
- * -------------------------------
- * Initializate chat handlers
- * 
- * chat: information about chat
- */
 void mx_init_handlers(t_chat *chat) {
     chat->request_handler[RQ_LOG_IN] = NULL;
     chat->request_handler[RQ_SIGN_UP] = NULL;

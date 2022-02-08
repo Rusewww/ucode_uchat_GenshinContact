@@ -1,15 +1,5 @@
 #include "client.h"
 
-/*
- * Function: mx_handle_request
- * -------------------------------
- * Handels request from server
- * 
- * request: received string from server
- * chat: information about chat
- * 
- * returns: success of handling
- */
 gboolean mx_handle_request(char *request, t_chat *chat) {
     t_dtp *data = mx_request_creation(request);
 
@@ -40,15 +30,6 @@ static gboolean is_connected(t_chat *chat, GDataInputStream *in) {
     return TRUE;
 }
 
-/*
- * Function: mx_receiver
- * -------------------------------
- * Receives requests from server
- * 
- * source_object: the object the asynchronous operation was started with
- * res: GAsyncResult
- * user_data: chat information
- */
 void mx_receiver(GObject *source_object, GAsyncResult *res,
                  gpointer user_data) {
     GDataInputStream *in = G_DATA_INPUT_STREAM(source_object);

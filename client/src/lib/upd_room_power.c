@@ -7,6 +7,6 @@ gboolean mx_upd_handler(t_dtp *data, t_chat *chat) {
     }
     if (!cJSON_IsNumber(room_id) || !cJSON_IsNumber(power))
         return FALSE;
-    power_d = mx_get_used_power(power->valuedouble);
+    power_d = mx_get_u(power->valuedouble);
     return TRUE;
 }
